@@ -1,0 +1,23 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "JP_codeSystem_IGsample_document_section",
+  "id": "jp-codeSystem-IGsample-document-section",
+  "description": "サンプル医療文書セクション区分コード",
+  "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/document-section",
+  "concept": [
+    {
+      "code": "100",
+      "display": "第1セクション"
+    },
+    {
+      "code": "200",
+      "display": "第2セクション"
+    }
+  ],
+  "title": "サンプル医療文書セクション区分コード",
+  "experimental": false,
+  "caseSensitive": false,
+  "count": 2
+}

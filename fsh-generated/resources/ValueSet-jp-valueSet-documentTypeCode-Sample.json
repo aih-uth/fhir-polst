@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "JP_valueSet_documentTypeCode_Sample",
+  "id": "jp-valueSet-documentTypeCode-Sample",
+  "title": "サンプルFHIR文書の文書区分",
+  "description": "サンプルFHIR文書の文書区分",
+  "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/doc-typecodes",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://jpfhir.jp/fhir/IGsample/CodeSystem/doc-typecodes"
+      }
+    ]
+  }
+}

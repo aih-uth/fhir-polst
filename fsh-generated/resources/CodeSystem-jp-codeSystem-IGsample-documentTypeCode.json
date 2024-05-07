@@ -1,0 +1,19 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "JP_codeSystem__IGsample_documentTypeCode",
+  "id": "jp-codeSystem-IGsample-documentTypeCode",
+  "description": "FHIR文書の文書区分（医療文書全般）",
+  "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/doc-typecodes",
+  "concept": [
+    {
+      "code": "12345-1",
+      "display": "サンプル医療文書種別"
+    }
+  ],
+  "title": "FHIR文書の文書区分（医療文書全般）",
+  "experimental": false,
+  "caseSensitive": false,
+  "count": 1
+}
