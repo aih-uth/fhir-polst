@@ -4,24 +4,24 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: ig-sample
-canonical: http://jpfhir.jp/fhir/jp-sample
-name: "サンプル医療文書のFHIR実装ガイド ドラフト版"
-title: "サンプル医療文書のFHIR実装ガイド"
-description: "サンプル医療文書のFHIR実装ガイド ドラフト版"
-status: draft # draft | active | retired | unknown 
-version: 1.0.0-tmp
-date: 2024-05-01
-fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html 
-copyrightYear: 2023+
+id: polst-jp
+canonical: http://jpfhir.jp/fhir/polst-jp
+name: "日本版POLST（DNAR指示を含む）のFHIR文書実装ガイド"
+title: "日本版POLSTのためのFHIR文書実装ガイド"
+description: "日本版POLST（DNAR指示を含む）（日本臨床倫理学会作成版）のFHIR文書実装ガイド"
+status: draft # draft | active | retired | unknown
+version: 1.0.0
+date: 2024-05-07
+fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+copyrightYear: 2024+
 releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC BY-ND  #  https://www.hl7.org/fhir/valueset-spdx-license.html
-# https://www.hl7.org/fhir/valueset-jurisdiction.html 
+# https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: Kawazoe
+  name: kawazoe
   url: http://jp-fhir.jp
   email: office@hl7fhir.jp
-copyright: Copyright by Author Name
+copyright: Copyright by Kawazoe
 jurisdiction: 'urn:iso:std:iso:3166-2#JP'
 dependencies:
   jp-core.r4:
@@ -36,12 +36,12 @@ dependencies:
 #----------------------------------------
 pages:
   index.md:
-    title: サンプル医療文書のFHIR仕様  JP-sample
+    title: 日本版POLSTのFHIR文書実装ガイド
   samplePage.md:
     title: 詳細説明
   validationGuide.md:
     title: Validationガイド
-    
+
 #-------------------------------------
 # メニュー設定
 #-------------------------------------
@@ -50,13 +50,13 @@ menu:
     本文: index.html
     詳細説明: samplePage.html
     プロファイル: artifacts.html
-  Artifacts: 
+  Artifacts:
     Artifacts: artifacts.html
   Validationガイド:
-    Validationガイド: validationGuide.html    
+    Validationガイド: validationGuide.html
   パッケージDownload:
     標準(diff)版: https://jpfhir.jp/fhir/sample/jp-sample.r4-1.0.0.tgz
-    snapshot版: https://jpfhir.jp/fhir/sample/jp-sample.r4-1.0.0-snap.tgz    
+    snapshot版: https://jpfhir.jp/fhir/sample/jp-sample.r4-1.0.0-snap.tgz
 #-----------------------------------------
 # IG 外部パラメータ設定
 #-----------------------------------------
@@ -70,7 +70,7 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
     - fsh-generated/includes
     #- input/summaries
   path-expansion-params: '../../input/_resources/exp-params.json'
-  no-narrative: 
+  no-narrative:
     - CodeSystem/*
   active-tables: 'false'
   apply-version: 'true'

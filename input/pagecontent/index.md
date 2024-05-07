@@ -1,7 +1,7 @@
 
-### Sampoe文書のためのFHIR実装ガイド
+### 日本版POLSTのためのFHIR文書実装ガイド
 
-#### このImplementationガイド(IG)の目的：
+#### ImplementationGuideの目的
 
 ### 詳細なFHIR仕様
 
