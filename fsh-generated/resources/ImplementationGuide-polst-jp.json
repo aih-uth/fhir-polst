@@ -1,25 +1,29 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "ig-sample",
-  "url": "http://jpfhir.jp/fhir/jp-sample/ImplementationGuide/ig-sample",
-  "version": "1.0.0-tmp",
-  "name": "FHIR",
-  "title": "サンプル医療文書のFHIR実装ガイド",
+  "id": "polst-jp",
+  "url": "http://jpfhir.jp/fhir/polst-jp/ImplementationGuide/polst-jp",
+  "version": "1.0.0",
+  "name": "POLSTDNARFHIR",
+  "title": "日本版POLSTのためのFHIR文書実装ガイド",
   "status": "draft",
-  "date": "2024-05-01",
-  "publisher": "Author Name",
+  "date": "2024-05-07",
+  "publisher": "kawazoe",
   "contact": [
     {
-      "name": "Author Name",
+      "name": "kawazoe",
       "telecom": [
         {
+          "system": "url",
+          "value": "http://jp-fhir.jp"
+        },
+        {
           "system": "email",
-          "value": "sample@sample.com"
+          "value": "office@hl7fhir.jp"
         }
       ]
     }
   ],
-  "description": "サンプル医療文書のFHIR実装ガイド ドラフト版",
+  "description": "日本版POLST（DNAR指示を含む）（日本臨床倫理学会作成版）のFHIR文書実装ガイド",
   "jurisdiction": [
     {
       "coding": [
@@ -30,8 +34,8 @@
       ]
     }
   ],
-  "copyright": "Copyright by Author Name",
-  "packageId": "ig-sample",
+  "copyright": "Copyright by Kawazoe",
+  "packageId": "polst-jp",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -107,7 +111,7 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "サンプル医療文書のFHIR仕様  JP-sample",
+          "title": "日本版POLSTのFHIR文書実装ガイド",
           "generation": "markdown"
         },
         {
@@ -125,7 +129,7 @@
     "parameter": [
       {
         "code": "copyrightyear",
-        "value": "2023+"
+        "value": "2024+"
       },
       {
         "code": "releaselabel",

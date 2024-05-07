@@ -1,0 +1,7 @@
+Output File                                              Name                                      Type        FSH File                               Lines
+CodeSystem-jp-codeSystem-IGsample-document-section.json  JP_codeSystem_IGsample_document_section   CodeSystem  profiles/JP-CodeSystem-sample001.fsh   15 - 25
+CodeSystem-jp-codeSystem-IGsample-documentTypeCode.json  JP_codeSystem__IGsample_documentTypeCode  CodeSystem  profiles/JP-CodeSystem-sample001.fsh   2 - 11
+StructureDefinition-JP-Bundle-sample001.json             JP_Bundle_sample001                       Profile     profiles/JP_Bundle_sample001.fsh       1 - 68
+StructureDefinition-JP-Composition-sample001.json        JP_Composition_sample001                  Profile     profiles/JP_Composition_sample001.fsh  2 - 76
+ValueSet-jp-valueSet-documentTypeCode-Sample.json        JP_valueSet_documentTypeCode_Sample       ValueSet    profiles/JP-ValueSets-sample001.fsh    3 - 10
+ValueSet-jp-valueset-IGsample-document-section.json      JP_ValueSet_IGsample_document_section     ValueSet    profiles/JP-ValueSets-sample001.fsh    14 - 21
