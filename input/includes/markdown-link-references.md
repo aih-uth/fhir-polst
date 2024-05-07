@@ -13,7 +13,7 @@
 [JP_DiagnosticReport_Common_interaction]: StructureDefinition-jp-diagnosticreport-common.html#interaction一覧
 
 <!-- ImplementationGuide -->
-[FHIR]: ImplementationGuide-ig-sample.html
+[FHIR]: ImplementationGuide-polst-jp.html
 
 <!-- StructureDefinition: Profile, DataType -->
 [JP_Bundle_sample001]: StructureDefinition-JP-Bundle-sample001.html
