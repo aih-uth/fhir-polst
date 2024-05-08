@@ -3,7 +3,7 @@
     "outputFile": "CodeSystem-jp-codeSystem-IGsample-document-section.json",
     "fshName": "JP_codeSystem_IGsample_document_section",
     "fshType": "CodeSystem",
-    "fshFile": "profiles/JP-CodeSystem-sample001.fsh",
+    "fshFile": "profiles/back/JP-CodeSystem-sample001.fsh",
     "startLine": 15,
     "endLine": 25
   },
@@ -11,7 +11,7 @@
     "outputFile": "CodeSystem-jp-codeSystem-IGsample-documentTypeCode.json",
     "fshName": "JP_codeSystem__IGsample_documentTypeCode",
     "fshType": "CodeSystem",
-    "fshFile": "profiles/JP-CodeSystem-sample001.fsh",
+    "fshFile": "profiles/back/JP-CodeSystem-sample001.fsh",
     "startLine": 2,
     "endLine": 11
   },
@@ -19,7 +19,7 @@
     "outputFile": "StructureDefinition-JP-Bundle-sample001.json",
     "fshName": "JP_Bundle_sample001",
     "fshType": "Profile",
-    "fshFile": "profiles/JP_Bundle_sample001.fsh",
+    "fshFile": "profiles/back/JP_Bundle_sample001.fsh",
     "startLine": 1,
     "endLine": 68
   },
@@ -27,15 +27,39 @@
     "outputFile": "StructureDefinition-JP-Composition-sample001.json",
     "fshName": "JP_Composition_sample001",
     "fshType": "Profile",
-    "fshFile": "profiles/JP_Composition_sample001.fsh",
+    "fshFile": "profiles/back/JP_Composition_sample001.fsh",
     "startLine": 2,
     "endLine": 76
+  },
+  {
+    "outputFile": "StructureDefinition-JP-Questionnaire-eInfectionReport-Common.json",
+    "fshName": "JP_Questionnaire_eInfectionReport_Common",
+    "fshType": "Profile",
+    "fshFile": "profiles/JP_Questionnaire_eInfectionReport_Common.fsh",
+    "startLine": 1,
+    "endLine": 59
+  },
+  {
+    "outputFile": "StructureDefinition-JP-Questionnaire.json",
+    "fshName": "JP_Questionnaire",
+    "fshType": "Profile",
+    "fshFile": "profiles/JP_Questionnaire.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-JP-QuestionnaireResponse.json",
+    "fshName": "JP_QResponse",
+    "fshType": "Profile",
+    "fshFile": "profiles/JP_QResponse.fsh",
+    "startLine": 1,
+    "endLine": 16
   },
   {
     "outputFile": "ValueSet-jp-valueSet-documentTypeCode-Sample.json",
     "fshName": "JP_valueSet_documentTypeCode_Sample",
     "fshType": "ValueSet",
-    "fshFile": "profiles/JP-ValueSets-sample001.fsh",
+    "fshFile": "profiles/back/JP-ValueSets-sample001.fsh",
     "startLine": 3,
     "endLine": 10
   },
@@ -43,7 +67,7 @@
     "outputFile": "ValueSet-jp-valueset-IGsample-document-section.json",
     "fshName": "JP_ValueSet_IGsample_document_section",
     "fshType": "ValueSet",
-    "fshFile": "profiles/JP-ValueSets-sample001.fsh",
+    "fshFile": "profiles/back/JP-ValueSets-sample001.fsh",
     "startLine": 14,
     "endLine": 21
   }

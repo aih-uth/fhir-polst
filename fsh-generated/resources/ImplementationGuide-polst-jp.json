@@ -81,6 +81,30 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/JP-QuestionnaireResponse"
+        },
+        "name": "JP_QResponse",
+        "description": "JP_QResponse Derived Profile from QuestionnaireResponse",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/JP-Questionnaire"
+        },
+        "name": "JP_Questionnaire",
+        "description": "JP_Questionnaire Derived Profile from Questionnaire",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/JP-Questionnaire-eInfectionReport-Common"
+        },
+        "name": "JP_Questionnaire_eInfectionReport_Common",
+        "description": "Derived Profile from JP-Core",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/jp-valueSet-documentTypeCode-Sample"
         },
         "name": "サンプルFHIR文書の文書区分",
@@ -229,11 +253,15 @@
       },
       {
         "code": "special-url",
-        "value": "http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Bundle_sample001"
+        "value": "http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_QResponse.fsh"
       },
       {
         "code": "special-url",
-        "value": "http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Composition_sample"
+        "value": "http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire.fsh"
+      },
+      {
+        "code": "special-url",
+        "value": "http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire_eInfectionReport_Common.fsh"
       },
       {
         "code": "special-url",
