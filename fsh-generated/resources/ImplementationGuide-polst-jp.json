@@ -65,22 +65,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/JP-Bundle-sample001"
-        },
-        "name": "JP_Bundle_sample001",
-        "description": "サンプル文書 Bundleリソース",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/JP-Composition-sample001"
-        },
-        "name": "JP_Composition_sample001",
-        "description": "サンプルCompositionプロファイル",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/JP-QuestionnaireResponse"
         },
         "name": "JP_QResponse",
@@ -97,9 +81,9 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/JP-Questionnaire-eInfectionReport-Common"
+          "reference": "StructureDefinition/JP-Questionnaire-POLST-Common"
         },
-        "name": "JP_Questionnaire_eInfectionReport_Common",
+        "name": "JP_Questionnaire_POLST_Common",
         "description": "Derived Profile from JP-Core",
         "exampleBoolean": false
       },
@@ -261,7 +245,7 @@
       },
       {
         "code": "special-url",
-        "value": "http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire_eInfectionReport_Common.fsh"
+        "value": "http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire_POLST_Common.fsh"
       },
       {
         "code": "special-url",

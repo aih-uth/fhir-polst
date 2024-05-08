@@ -16,8 +16,12 @@
 [FHIR]: ImplementationGuide-polst-jp.html
 
 <!-- StructureDefinition: Profile, DataType -->
-[JP_Bundle_sample001]: StructureDefinition-JP-Bundle-sample001.html
-[JP_Composition_sample001]: StructureDefinition-JP-Composition-esample001.html
+<!-- [JP_Bundle_sample001]: StructureDefinition-JP-Bundle-sample001.html
+[JP_Composition_sample001]: StructureDefinition-JP-Composition-esample001.html -->
+
+[JP_QResponse]: StructureDefinition-JP_QResponse.html
+[JP_Questionnaire]: StructureDefinition-JP_Questionnaire.html
+[JP_Questionnaire_POLST_Common]: StructureDefinition-JP_Questionnaire_POLST_Common.html
 
 <!-- StructureDefinition: Extension -->
 

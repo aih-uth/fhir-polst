@@ -94,7 +94,7 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
   special-url:
     - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_QResponse.fsh
     - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire.fsh
-    - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire_eInfectionReport_Common.fsh
+    - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire_POLST_Common.fsh
     - http://jpfhir.jp/fhir/IGsample/CodeSystem/document-section
     - http://jpfhir.jp/fhir/IGsample/CodeSystem/doc-typecodes
     - http://jpfhir.jp/fhir/IGsample/ValueSet/doc-typecodes

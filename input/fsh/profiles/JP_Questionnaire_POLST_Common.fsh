@@ -1,6 +1,6 @@
-Profile: JP_Questionnaire_eInfectionReport_Common
+Profile: JP_Questionnaire_POLST_Common
 Parent: $JP_Questionnaire
-Id: JP-Questionnaire-eInfectionReport-Common
+Id: JP-Questionnaire-POLST-Common
 Description: "Derived Profile from JP-Core"
 * ^status = #draft
 * ^date = "2024-05-07"

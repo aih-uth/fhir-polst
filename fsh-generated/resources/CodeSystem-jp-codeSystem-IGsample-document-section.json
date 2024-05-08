@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "JP_codeSystem_IGsample_document_section",
   "id": "jp-codeSystem-IGsample-document-section",
-  "description": "医療文書セクション区分コード",
+  "description": "サンプル医療文書セクション区分コード",
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/document-section",
   "concept": [
     {
@@ -16,7 +16,7 @@
       "display": "第2セクション"
     }
   ],
-  "title": "医療文書セクション区分コード",
+  "title": "サンプル医療文書セクション区分コード",
   "experimental": false,
   "caseSensitive": false,
   "count": 2

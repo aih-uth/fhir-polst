@@ -1,8 +1,8 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "JP-Questionnaire-eInfectionReport-Common",
-  "url": "http://jpfhir.jp/fhir/polst-jp/StructureDefinition/JP-Questionnaire-eInfectionReport-Common",
-  "name": "JP_Questionnaire_eInfectionReport_Common",
+  "id": "JP-Questionnaire-POLST-Common",
+  "url": "http://jpfhir.jp/fhir/polst-jp/StructureDefinition/JP-Questionnaire-POLST-Common",
+  "name": "JP_Questionnaire_POLST_Common",
   "status": "draft",
   "date": "2024-05-07",
   "publisher": "The Department of Bio-Medical Informatics, The University of Tokyo",
