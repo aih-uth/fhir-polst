@@ -9,7 +9,7 @@
   "concept": [
     {
       "code": "12345-1",
-      "display": "サンプル医療文書種別"
+      "display": "FHIR文書種別"
     }
   ],
   "title": "FHIR文書の文書区分（医療文書全般）",
