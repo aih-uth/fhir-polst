@@ -3,7 +3,7 @@ CodeSystem: JP_CodeSystem_POLST_Document_Type_Code
 Id: jp-codesystem-polst-document-type-code
 Description: "POLST文書区分コードシステム"
 * ^url = "http://jpfhir.jp/fhir/IGsample/CodeSystem/doc-typecodes"
-* ^title = "POLST文書区分コードシステム"
+* ^title = "文書区分CS"
 * ^status = #active
 * ^experimental = false
 * ^content = #complete
@@ -15,7 +15,7 @@ CodeSystem: JP_CodeSystem_POLST_Document_Section_Code
 Id: jp-codesystem-polst-document-section-code
 Description: "POLST文書セクション区分コードシステム"
 * ^url = "http://jpfhir.jp/fhir/IGsample/CodeSystem/document-section"
-* ^title = "POLST文書セクション区分コードシステム"
+* ^title = "文書セクション区分CS"
 * ^status = #active
 * ^experimental = false
 * ^content = #complete
