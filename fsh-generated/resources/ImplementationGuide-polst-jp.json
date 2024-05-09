@@ -249,19 +249,11 @@
       },
       {
         "code": "special-url",
-        "value": "http://jpfhir.jp/fhir/IGsample/CodeSystem/document-section"
+        "value": "http://jpfhir.jp/fhir/IGsample/CodeSystem/JP-CodeSystem-POLST.fsh"
       },
       {
         "code": "special-url",
-        "value": "http://jpfhir.jp/fhir/IGsample/CodeSystem/doc-typecodes"
-      },
-      {
-        "code": "special-url",
-        "value": "http://jpfhir.jp/fhir/IGsample/ValueSet/doc-typecodes"
-      },
-      {
-        "code": "special-url",
-        "value": "http://jpfhir.jp/fhir/IGsample/ValueSet/document-section"
+        "value": "http://jpfhir.jp/fhir/IGsample/ValueSet/JP-ValueSets-POLST.fsh"
       }
     ]
   }

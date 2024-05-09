@@ -3,15 +3,15 @@
     "outputFile": "CodeSystem-jp-codeSystem-IGsample-document-section.json",
     "fshName": "JP_codeSystem_IGsample_document_section",
     "fshType": "CodeSystem",
-    "fshFile": "profiles/JP-CodeSystem-sample001.fsh",
-    "startLine": 15,
-    "endLine": 25
+    "fshFile": "profiles/JP-CodeSystem-POLST.fsh",
+    "startLine": 14,
+    "endLine": 24
   },
   {
     "outputFile": "CodeSystem-jp-codeSystem-IGsample-documentTypeCode.json",
     "fshName": "JP_codeSystem__IGsample_documentTypeCode",
     "fshType": "CodeSystem",
-    "fshFile": "profiles/JP-CodeSystem-sample001.fsh",
+    "fshFile": "profiles/JP-CodeSystem-POLST.fsh",
     "startLine": 2,
     "endLine": 11
   },
@@ -43,7 +43,7 @@
     "outputFile": "ValueSet-jp-valueSet-documentTypeCode-Sample.json",
     "fshName": "JP_valueSet_documentTypeCode_Sample",
     "fshType": "ValueSet",
-    "fshFile": "profiles/JP-ValueSets-sample001.fsh",
+    "fshFile": "profiles/JP-ValueSets-POLST.fsh",
     "startLine": 3,
     "endLine": 10
   },
@@ -51,8 +51,8 @@
     "outputFile": "ValueSet-jp-valueset-IGsample-document-section.json",
     "fshName": "JP_ValueSet_IGsample_document_section",
     "fshType": "ValueSet",
-    "fshFile": "profiles/JP-ValueSets-sample001.fsh",
-    "startLine": 14,
-    "endLine": 21
+    "fshFile": "profiles/JP-ValueSets-POLST.fsh",
+    "startLine": 13,
+    "endLine": 20
   }
 ]

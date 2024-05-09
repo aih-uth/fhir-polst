@@ -1,8 +1,8 @@
 Output File                                              Name                                      Type        FSH File                                    Lines
-CodeSystem-jp-codeSystem-IGsample-document-section.json  JP_codeSystem_IGsample_document_section   CodeSystem  profiles/JP-CodeSystem-sample001.fsh        15 - 25
-CodeSystem-jp-codeSystem-IGsample-documentTypeCode.json  JP_codeSystem__IGsample_documentTypeCode  CodeSystem  profiles/JP-CodeSystem-sample001.fsh        2 - 11
+CodeSystem-jp-codeSystem-IGsample-document-section.json  JP_codeSystem_IGsample_document_section   CodeSystem  profiles/JP-CodeSystem-POLST.fsh            14 - 24
+CodeSystem-jp-codeSystem-IGsample-documentTypeCode.json  JP_codeSystem__IGsample_documentTypeCode  CodeSystem  profiles/JP-CodeSystem-POLST.fsh            2 - 11
 StructureDefinition-JP-Questionnaire-POLST-Common.json   JP_Questionnaire_POLST_Common             Profile     profiles/JP_Questionnaire_POLST_Common.fsh  1 - 59
 StructureDefinition-JP-Questionnaire.json                JP_Questionnaire                          Profile     profiles/JP_Questionnaire.fsh               1 - 16
 StructureDefinition-JP-QuestionnaireResponse.json        JP_QResponse                              Profile     profiles/JP_QResponse.fsh                   1 - 16
-ValueSet-jp-valueSet-documentTypeCode-Sample.json        JP_valueSet_documentTypeCode_Sample       ValueSet    profiles/JP-ValueSets-sample001.fsh         3 - 10
-ValueSet-jp-valueset-IGsample-document-section.json      JP_ValueSet_IGsample_document_section     ValueSet    profiles/JP-ValueSets-sample001.fsh         14 - 21
+ValueSet-jp-valueSet-documentTypeCode-Sample.json        JP_valueSet_documentTypeCode_Sample       ValueSet    profiles/JP-ValueSets-POLST.fsh             3 - 10
+ValueSet-jp-valueset-IGsample-document-section.json      JP_ValueSet_IGsample_document_section     ValueSet    profiles/JP-ValueSets-POLST.fsh             13 - 20
