@@ -92,9 +92,10 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
   no-validate:
     - '*/hl7.fhir.jp.core'
   special-url:
-    - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_QResponse.fsh
     - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire.fsh
     - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire_POLST_Common.fsh
+    - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_QResponse.fsh
+    - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_QResponse_POLST_Common.fsh
     - http://jpfhir.jp/fhir/IGsample/CodeSystem/JP_CodeSystem_POLST.fsh
     - http://jpfhir.jp/fhir/IGsample/ValueSet/JP_ValueSet_POLST.fsh
     # - http://jpfhir.jp/fhir/IGsample/CodeSystem/document-section

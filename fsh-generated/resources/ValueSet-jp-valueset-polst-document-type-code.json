@@ -3,7 +3,7 @@
   "status": "active",
   "name": "JP_ValueSet_POLST_Document_Type_Code",
   "id": "jp-valueset-polst-document-type-code",
-  "title": "POLST文書区分バリューセット",
+  "title": "文書区分VS",
   "description": "POLST文書区分バリューセット",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/doc-typecodes",
   "experimental": false,

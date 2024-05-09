@@ -12,7 +12,7 @@
       "display": "サンプル医療文書種別"
     }
   ],
-  "title": "POLST文書区分コードシステム",
+  "title": "文書区分CS",
   "experimental": false,
   "caseSensitive": false,
   "count": 1

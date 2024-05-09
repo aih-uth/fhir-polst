@@ -923,8 +923,8 @@
       {
         "id": "Questionnaire.date",
         "path": "Questionnaire.date",
-        "short": "質問表の作成／最終更新日時",
-        "definition": "質問表の作成／最終更新日時",
+        "short": "POLST文書の作成／最終更新日時",
+        "definition": "POLST文書の作成／最終更新日時",
         "comment": "リソースはアンケートの二次表現である可能性があるため、これはリソースラスト修飾日と同じではないことに注意してください。追加の特定の日付は、拡張機能として追加されるか、リソースの過去のバージョンに関連する提案に相談することで見つけることができます。 / Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the questionnaire. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.",
         "alias": [
           "Revision Date"
@@ -972,8 +972,8 @@
       {
         "id": "Questionnaire.publisher",
         "path": "Questionnaire.publisher",
-        "short": "質問表の作成／最終更新者",
-        "definition": "質問表の作成／最終更新者",
+        "short": "POLST文書の作成／最終更新者",
+        "definition": "POLST文書の作成／最終更新者",
         "comment": "通常、組織ですが、個人かもしれません。アンケートの出版社（またはスチュワード）は、アンケートのメンテナンスと維持を主に担当する組織または個人です。これは、必ずしもコンテンツを開発し、最初に執筆した個人または組織ではありません。出版社は、アンケートに関する質問や問題の主な連絡先です。情報がコンテキストから利用可能でない限り、このアイテムは入力する必要があります。 / Usually an organization but may be an individual. The publisher (or steward) of the questionnaire is the organization or individual primarily responsible for the maintenance and upkeep of the questionnaire. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the questionnaire. This item SHOULD be populated unless the information is available from context.",
         "requirements": "アンケートの「権限/信頼性」を確立するのに役立ちます。また、接触を許可する場合があります。 / Helps establish the \"authority/credibility\" of the questionnaire.  May also allow for contact.",
         "min": 1,
@@ -1060,8 +1060,8 @@
       {
         "id": "Questionnaire.description",
         "path": "Questionnaire.description",
-        "short": "質問表の説明",
-        "definition": "質問表の説明",
+        "short": "POLST文書の説明",
+        "definition": "POLST文書の説明",
         "comment": "この説明は、アンケートが作成された理由、誤用に関するコメント、臨床使用と解釈の指示、文献の参照、紙の世界からの例などの詳細をキャプチャするために使用できます。リソース自体の「テキスト」フィールド。この項目は、情報がコンテキストから入手可能でない限り入力する必要があります（たとえば、アンケートの言語は、アンケートが作成された場所の主要な言語であると推定されます）。 / This description can be used to capture details such as why the questionnaire was built, comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the questionnaire as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the questionnaire is presumed to be the predominant language in the place the questionnaire was created).",
         "min": 1,
         "max": "1",
@@ -1483,8 +1483,8 @@
       {
         "id": "Questionnaire.item",
         "path": "Questionnaire.item",
-        "short": "質問セクションまたは個々の質問項目",
-        "definition": "質問セクションまたは個々の質問項目",
+        "short": "文書セクションまたは個々の指示項目",
+        "definition": "文書セクションまたは個々の指示項目",
         "comment": "アンケートの内容は、注文された階層的なアイテムのコレクションから構築されています。 / The content of the questionnaire is constructed from an ordered, hierarchical collection of items.",
         "min": 0,
         "max": "*",
@@ -1737,8 +1737,8 @@
       {
         "id": "Questionnaire.item.linkId",
         "path": "Questionnaire.item.linkId",
-        "short": "対応する質問票の項目の階層的な番号または項目グループ番号。必須。",
-        "definition": "対応する質問票の項目の階層的な番号または項目グループ番号。必須。",
+        "short": "対応する指示項目の階層的な番号または項目グループ番号。必須。",
+        "definition": "対応する指示項目の階層的な番号または項目グループ番号。必須。",
         "comment": "例）1 1.1  1.3.0.2 などの文字列",
         "requirements": "[Questionnairesponse]（Questioneresponse.html＃）は、省略されたアイテムを含める必要はなく、繰り返されるアイテムがある場合があるため、位置のみに基づいたリンケージでは十分ではありません。 / [QuestionnaireResponse](questionnaireresponse.html#) does not require omitted items to be included and may have some items that repeat, so linkage based on position alone is not sufficient.",
         "min": 1,
@@ -1776,8 +1776,8 @@
       {
         "id": "Questionnaire.item.definition",
         "path": "Questionnaire.item.definition",
-        "short": "質問項目を定義するFHIR定義のURL",
-        "definition": "質問項目を定義するFHIR定義",
+        "short": "指示項目を定義するFHIR定義のURL",
+        "definition": "指示項目を定義するFHIR定義",
         "comment": "記述する場合には、ElementDefinition はStructureDefinition内に存在する必要があり、特定のデータ要素を ID (Element.id) で識別するフラグメント識別子を持っている必要がある。たとえば、http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x]。\nlinkId が指す項目に定義がリストされている場合、この要素は必要ない。",
         "requirements": "一般的なパターンは、データ要素のセットを定義し、さまざまな状況に合わせて複数のアンケートを構築してデータを収集することです。この要素は、共通の定義にトレーサビリティを提供し、質問のコンテンツが基礎となる定義から来ることを可能にします。 / A common pattern is to define a set of data elements and then build multiple questionnaires for different circumstances to gather the data. This element provides traceability to the common definition and allows the content for the question to come from the underlying definition.",
         "min": 0,
@@ -1867,8 +1867,8 @@
       {
         "id": "Questionnaire.item.prefix",
         "path": "Questionnaire.item.prefix",
-        "short": "質問項目の番号または記号(表示用文字列)",
-        "definition": "質問項目の番号または記号(表示用文字列)",
+        "short": "指示項目の番号または記号(表示用文字列)",
+        "definition": "指示項目の番号または記号(表示用文字列)",
         "comment": "これらは一般にアンケート内でユニークですが、これは保証されていません。一部のアンケートには、露出するロジックを制御する同じラベルを備えた複数の質問がある場合があります。通常、これらは「表示」アイテムには使用されませんが、そのような使用は禁止されていません。アンケート内のアイテムに対してプレフィックスが定義されている場合、システムは独自のプレフィックスを生成しないでください。 / These are generally unique within a questionnaire, though this is not guaranteed. Some questionnaires may have multiple questions with the same label with logic to control which gets exposed.  Typically, these won't be used for \"display\" items, though such use is not prohibited.  Systems SHOULD NOT generate their own prefixes if prefixes are defined for any items within a Questionnaire.",
         "requirements": "ラベルを質問テキストから分離すると、レンダリングが改善されます。また、指示は特定のプレフィックスを参照することが多いため、アンケートの設計が使用されるラベルを制御する必要があります。 / Separating the label from the question text allows improved rendering.  Also, instructions will often refer to specific prefixes, so there's a need for the questionnaire design to have control over what labels are used.",
         "alias": [
@@ -1910,8 +1910,8 @@
         "id": "Questionnaire.item.text",
         "path": "Questionnaire.item.text",
         "short": "グループのコンテンツの上に表示されるテキスト、または回答中の質問のテキストとして表示されるテキスト。",
-        "definition": "セクションの名前、質問のテキスト、または表示アイテムのテキスト コンテンツ",
-        "comment": "この要素を使用してセクションの名前を表す場合は、グループ タイプの項目を使用し、テキスト要素をセクションの見出しとして表示するのに適した短い文字列に制限してください。グループ項目の指示は、グループ内の表示タイプの項目として含める必要があります。",
+        "definition": "セクションの名前、指示のテキスト、または表示アイテムのテキスト コンテンツ",
+        "comment": "この要素を使用してセクションの名前を表す場合は、グループタイプの項目を使用し、テキスト要素をセクションの見出しとして表示するのに適した短い文字列に制限してください。グループ項目の指示は、グループ内の表示タイプの項目として含める必要があります。",
         "min": 1,
         "max": "1",
         "base": {
@@ -1947,8 +1947,8 @@
       {
         "id": "Questionnaire.item.type",
         "path": "Questionnaire.item.type",
-        "short": "質問項目のデータ型",
-        "definition": "質問項目のデータ型 group | display | boolean | decimal | integer | date | dateTime など",
+        "short": "指示項目のデータ型",
+        "definition": "指示項目のデータ型 group | display | boolean | decimal | integer | date | dateTime など",
         "comment": "ValueSet http://hl7.org/fhir/ValueSet/item-type",
         "requirements": "ユーザーが回答を求められる形式を定義します。 / Defines the format in which the user is to be prompted for the answer.",
         "min": 1,
@@ -1997,8 +1997,8 @@
       {
         "id": "Questionnaire.item.enableWhen",
         "path": "Questionnaire.item.enableWhen",
-        "short": "質問項目の表示条件",
-        "definition": "質問項目の表示条件",
+        "short": "指示項目の表示条件",
+        "definition": "指示項目の表示条件",
         "comment": "この拡張機能の複数の繰り返しが存在する場合、繰り返しの *任意の *の条件が真である場合、アイテムを有効にする必要があります。すなわち「exable \"が「exable」が「または「句」または「句」が結合されていると扱います。この要素は修飾子です。なぜなら、アイテムが存在する場合、条件が満たされている場合に「必須」が無視されるためです。アイテムが無効になっている場合、ロジックが評価する可能性があるものに関係なく、その子孫はすべて無効になります。 / If multiple repetitions of this extension are present, the item should be enabled when the condition for *any* of the repetitions is true.  I.e. treat \"enableWhen\"s as being joined by an \"or\" clause.  This element is a modifier because if enableWhen is present for an item, \"required\" is ignored unless one of the enableWhen conditions is met. When an item is disabled, all of its descendants are disabled, regardless of what their own enableWhen logic might evaluate to.",
         "requirements": "アンケートは、他の質問への回答に基づいて適応することができます。例えば。身体的性別が男性として指定されている場合、妊娠歴を捉える必要はありません。また、命令または質問のグループの条件付き表示を許可します。 / Allows questionnaires to adapt based on answers to other questions. E.g. If physical gender is specified as a male, no need to capture pregnancy history.  Also allows conditional display of instructions or groups of questions.",
         "min": 0,
@@ -3238,79 +3238,79 @@
       {
         "id": "Questionnaire.date",
         "path": "Questionnaire.date",
-        "short": "質問表の作成／最終更新日時",
-        "definition": "質問表の作成／最終更新日時",
+        "short": "POLST文書の作成／最終更新日時",
+        "definition": "POLST文書の作成／最終更新日時",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Questionnaire.publisher",
         "path": "Questionnaire.publisher",
-        "short": "質問表の作成／最終更新者",
-        "definition": "質問表の作成／最終更新者",
+        "short": "POLST文書の作成／最終更新者",
+        "definition": "POLST文書の作成／最終更新者",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Questionnaire.description",
         "path": "Questionnaire.description",
-        "short": "質問表の説明",
-        "definition": "質問表の説明",
+        "short": "POLST文書の説明",
+        "definition": "POLST文書の説明",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Questionnaire.item",
         "path": "Questionnaire.item",
-        "short": "質問セクションまたは個々の質問項目",
-        "definition": "質問セクションまたは個々の質問項目",
+        "short": "文書セクションまたは個々の指示項目",
+        "definition": "文書セクションまたは個々の指示項目",
         "mustSupport": true
       },
       {
         "id": "Questionnaire.item.linkId",
         "path": "Questionnaire.item.linkId",
-        "short": "対応する質問票の項目の階層的な番号または項目グループ番号。必須。",
-        "definition": "対応する質問票の項目の階層的な番号または項目グループ番号。必須。",
+        "short": "対応する指示項目の階層的な番号または項目グループ番号。必須。",
+        "definition": "対応する指示項目の階層的な番号または項目グループ番号。必須。",
         "comment": "例）1 1.1  1.3.0.2 などの文字列",
         "mustSupport": true
       },
       {
         "id": "Questionnaire.item.definition",
         "path": "Questionnaire.item.definition",
-        "short": "質問項目を定義するFHIR定義のURL",
-        "definition": "質問項目を定義するFHIR定義",
+        "short": "指示項目を定義するFHIR定義のURL",
+        "definition": "指示項目を定義するFHIR定義",
         "comment": "記述する場合には、ElementDefinition はStructureDefinition内に存在する必要があり、特定のデータ要素を ID (Element.id) で識別するフラグメント識別子を持っている必要がある。たとえば、http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x]。\nlinkId が指す項目に定義がリストされている場合、この要素は必要ない。",
         "mustSupport": true
       },
       {
         "id": "Questionnaire.item.prefix",
         "path": "Questionnaire.item.prefix",
-        "short": "質問項目の番号または記号(表示用文字列)",
-        "definition": "質問項目の番号または記号(表示用文字列)",
+        "short": "指示項目の番号または記号(表示用文字列)",
+        "definition": "指示項目の番号または記号(表示用文字列)",
         "mustSupport": true
       },
       {
         "id": "Questionnaire.item.text",
         "path": "Questionnaire.item.text",
         "short": "グループのコンテンツの上に表示されるテキスト、または回答中の質問のテキストとして表示されるテキスト。",
-        "definition": "セクションの名前、質問のテキスト、または表示アイテムのテキスト コンテンツ",
-        "comment": "この要素を使用してセクションの名前を表す場合は、グループ タイプの項目を使用し、テキスト要素をセクションの見出しとして表示するのに適した短い文字列に制限してください。グループ項目の指示は、グループ内の表示タイプの項目として含める必要があります。",
+        "definition": "セクションの名前、指示のテキスト、または表示アイテムのテキスト コンテンツ",
+        "comment": "この要素を使用してセクションの名前を表す場合は、グループタイプの項目を使用し、テキスト要素をセクションの見出しとして表示するのに適した短い文字列に制限してください。グループ項目の指示は、グループ内の表示タイプの項目として含める必要があります。",
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Questionnaire.item.type",
         "path": "Questionnaire.item.type",
-        "short": "質問項目のデータ型",
-        "definition": "質問項目のデータ型 group | display | boolean | decimal | integer | date | dateTime など",
+        "short": "指示項目のデータ型",
+        "definition": "指示項目のデータ型 group | display | boolean | decimal | integer | date | dateTime など",
         "comment": "ValueSet http://hl7.org/fhir/ValueSet/item-type",
         "mustSupport": true
       },
       {
         "id": "Questionnaire.item.enableWhen",
         "path": "Questionnaire.item.enableWhen",
-        "short": "質問項目の表示条件",
-        "definition": "質問項目の表示条件",
+        "short": "指示項目の表示条件",
+        "definition": "指示項目の表示条件",
         "mustSupport": true
       }
     ]

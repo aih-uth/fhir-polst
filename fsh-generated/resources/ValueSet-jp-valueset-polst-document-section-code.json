@@ -5,7 +5,7 @@
   "id": "jp-valueset-polst-document-section-code",
   "description": "POLST文書セクション区分コードバリューセット",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/document-section",
-  "title": "POLST文書セクション区分コードバリューセット",
+  "title": "文書セクション区分VS",
   "experimental": false,
   "compose": {
     "include": [

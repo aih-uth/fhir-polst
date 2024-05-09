@@ -16,6 +16,14 @@
     "endLine": 11
   },
   {
+    "outputFile": "StructureDefinition-JP-QResponse-POLST-Common.json",
+    "fshName": "JP_QResponse_POLST_Common",
+    "fshType": "Profile",
+    "fshFile": "profiles/JP_QResponse_POLST_Common.fsh",
+    "startLine": 1,
+    "endLine": 70
+  },
+  {
     "outputFile": "StructureDefinition-JP-Questionnaire-POLST-Common.json",
     "fshName": "JP_Questionnaire_POLST_Common",
     "fshType": "Profile",
