@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "JP_CodeSystem_POLST_Participant_Code",
+  "id": "jp-codesystem-polst-participant-code",
+  "description": "JP_POLST(JP) 話し合いの参加者CS",
+  "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/polst-jp-participant-code",
+  "concept": [
+    {
+      "code": "12345-1",
+      "display": "患者"
+    },
+    {
+      "code": "12345-2",
+      "display": "配偶者"
+    },
+    {
+      "code": "12345-3",
+      "display": "その他"
+    }
+  ],
+  "title": "話し合いの参加者CS",
+  "experimental": false,
+  "caseSensitive": false,
+  "count": 3
+}

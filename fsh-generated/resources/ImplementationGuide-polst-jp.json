@@ -89,34 +89,26 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/jp-codesystem-polst-document-section-code"
+          "reference": "Questionnaire/JP-Questionnaire-POLST-JP"
         },
-        "name": "文書セクション区分CS",
-        "description": "POLST文書セクション区分コードシステム",
+        "name": "日本臨床倫理学会版POLST（DNAR指示を含む）",
+        "description": "日本臨床倫理学会版POLST（DNAR指示を含む）",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/jp-valueset-polst-document-section-code"
+          "reference": "CodeSystem/jp-codesystem-polst-participant-code"
         },
-        "name": "文書セクション区分VS",
-        "description": "POLST文書セクション区分コードバリューセット",
+        "name": "話し合いの参加者CS",
+        "description": "JP_POLST(JP) 話し合いの参加者CS",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "CodeSystem/jp-codesystem-polst-document-type-code"
+          "reference": "ValueSet/jp-valueset-polst-participant-code"
         },
-        "name": "文書区分CS",
-        "description": "POLST文書区分コードシステム",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/jp-valueset-polst-document-type-code"
-        },
-        "name": "文書区分VS",
-        "description": "POLST文書区分バリューセット",
+        "name": "話し合いの参加者VS",
+        "description": "JP_POLST(JP) 話し合いの参加者VS",
         "exampleBoolean": false
       }
     ],
@@ -258,6 +250,10 @@
       {
         "code": "special-url",
         "value": "http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_QResponse_POLST_Common.fsh"
+      },
+      {
+        "code": "special-url",
+        "value": "http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire_POLST_JP.fsh"
       },
       {
         "code": "special-url",

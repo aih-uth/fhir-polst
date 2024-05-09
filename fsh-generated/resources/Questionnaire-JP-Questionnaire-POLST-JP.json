@@ -1,0 +1,46 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "JP-Questionnaire-POLST-JP",
+  "meta": {
+    "profile": [
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Questionnaire_POLST_Common",
+      "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Questionnaire_POLST_JP"
+    ]
+  },
+  "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Questionnaire_POLST_JP",
+  "description": "日本臨床倫理学会版POLST（DNAR指示を含む）",
+  "subjectType": [
+    "Patient"
+  ],
+  "identifier": [
+    {
+      "system": "http://jpfhir.jp/fhir/core/IdSystem/resourceInstance-identifier",
+      "value": "JP-Questionnaire-POLST-JP-20240509"
+    }
+  ],
+  "version": "1.0",
+  "name": "JP_Questionnaire_POLST_JP",
+  "title": "日本臨床倫理学会版POLST（DNAR指示を含む）",
+  "status": "draft",
+  "date": "2024-05-09T00:00:00+09:00",
+  "publisher": "Kawazoe@Utokyo",
+  "item": [
+    {
+      "linkId": "group_Header",
+      "text": "医師・参加医療者",
+      "type": "group",
+      "required": true,
+      "repeats": false,
+      "item": [
+        {
+          "linkId": "i0_1",
+          "text": "話し合いの参加者",
+          "type": "open-choice",
+          "required": true,
+          "repeats": true,
+          "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/polst-jp-participant-code"
+        }
+      ]
+    }
+  ]
+}

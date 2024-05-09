@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "JP-Questionnaire-POLST-Common",
-  "url": "http://jpfhir.jp/fhir/polst-jp/StructureDefinition/JP-Questionnaire-POLST-Common",
+  "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Questionnaire_POLST_Common",
   "name": "JP_Questionnaire_POLST_Common",
   "status": "draft",
   "date": "2024-05-07",

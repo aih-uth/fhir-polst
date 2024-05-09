@@ -2,6 +2,7 @@ Profile: JP_Questionnaire_POLST_Common
 Parent: $JP_Questionnaire
 Id: JP-Questionnaire-POLST-Common
 Description: "Derived Profile from JP-Core"
+* ^url = "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Questionnaire_POLST_Common"
 * ^status = #draft
 * ^date = "2024-05-07"
 * ^publisher = "The Department of Bio-Medical Informatics, The University of Tokyo"

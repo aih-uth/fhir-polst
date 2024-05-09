@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "JP-QResponse-POLST-Common",
-  "url": "http://jpfhir.jp/fhir/polst-jp/StructureDefinition/JP-QResponse-POLST-Common",
+  "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_QResponse_POLST_Common",
   "name": "JP_QResponse_POLST_Common",
   "status": "draft",
   "date": "2024-05-07",

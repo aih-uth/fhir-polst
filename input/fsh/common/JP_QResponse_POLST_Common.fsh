@@ -2,6 +2,7 @@ Profile: JP_QResponse_POLST_Common
 Parent: $JP_QResponse
 Id: JP-QResponse-POLST-Common
 Description: "Derived Profile from JP-Core"
+* ^url = "http://jpfhir.jp/fhir/core/StructureDefinition/JP_QResponse_POLST_Common"
 * ^status = #draft
 * ^date = "2024-05-07"
 * ^publisher = "The Department of Bio-Medical Informatics, The University of Tokyo"

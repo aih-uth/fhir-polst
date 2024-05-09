@@ -96,9 +96,6 @@ parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+
     - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire_POLST_Common.fsh
     - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_QResponse.fsh
     - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_QResponse_POLST_Common.fsh
+    - http://jpfhir.jp/fhir/IGsample/StructureDefinition/JP_Questionnaire_POLST_JP.fsh
     - http://jpfhir.jp/fhir/IGsample/CodeSystem/JP_CodeSystem_POLST.fsh
     - http://jpfhir.jp/fhir/IGsample/ValueSet/JP_ValueSet_POLST.fsh
-    # - http://jpfhir.jp/fhir/IGsample/CodeSystem/document-section
-    # - http://jpfhir.jp/fhir/IGsample/CodeSystem/doc-typecodes
-    # - http://jpfhir.jp/fhir/IGsample/ValueSet/doc-typecodes
-    # - http://jpfhir.jp/fhir/IGsample/ValueSet/document-section

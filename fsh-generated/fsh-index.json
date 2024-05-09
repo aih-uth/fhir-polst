@@ -1,41 +1,41 @@
 [
   {
-    "outputFile": "CodeSystem-jp-codesystem-polst-document-section-code.json",
-    "fshName": "JP_CodeSystem_POLST_Document_Section_Code",
+    "outputFile": "CodeSystem-jp-codesystem-polst-participant-code.json",
+    "fshName": "JP_CodeSystem_POLST_Participant_Code",
     "fshType": "CodeSystem",
-    "fshFile": "profiles/JP_CodeSystem_POLST.fsh",
-    "startLine": 14,
-    "endLine": 24
+    "fshFile": "codeSystems/JP_CodeSystem_POLST.fsh",
+    "startLine": 2,
+    "endLine": 13
   },
   {
-    "outputFile": "CodeSystem-jp-codesystem-polst-document-type-code.json",
-    "fshName": "JP_CodeSystem_POLST_Document_Type_Code",
-    "fshType": "CodeSystem",
-    "fshFile": "profiles/JP_CodeSystem_POLST.fsh",
-    "startLine": 2,
-    "endLine": 11
+    "outputFile": "Questionnaire-JP-Questionnaire-POLST-JP.json",
+    "fshName": "JP-Questionnaire-POLST-JP",
+    "fshType": "Instance",
+    "fshFile": "profiles/JP_Questionnaire_POLST_JP .fsh",
+    "startLine": 1,
+    "endLine": 31
   },
   {
     "outputFile": "StructureDefinition-JP-QResponse-POLST-Common.json",
     "fshName": "JP_QResponse_POLST_Common",
     "fshType": "Profile",
-    "fshFile": "profiles/JP_QResponse_POLST_Common.fsh",
+    "fshFile": "common/JP_QResponse_POLST_Common.fsh",
     "startLine": 1,
-    "endLine": 70
+    "endLine": 71
   },
   {
     "outputFile": "StructureDefinition-JP-Questionnaire-POLST-Common.json",
     "fshName": "JP_Questionnaire_POLST_Common",
     "fshType": "Profile",
-    "fshFile": "profiles/JP_Questionnaire_POLST_Common.fsh",
+    "fshFile": "common/JP_Questionnaire_POLST_Common.fsh",
     "startLine": 1,
-    "endLine": 59
+    "endLine": 60
   },
   {
     "outputFile": "StructureDefinition-JP-Questionnaire.json",
     "fshName": "JP_Questionnaire",
     "fshType": "Profile",
-    "fshFile": "profiles/JP_Questionnaire.fsh",
+    "fshFile": "common/JP_Questionnaire.fsh",
     "startLine": 1,
     "endLine": 16
   },
@@ -43,23 +43,15 @@
     "outputFile": "StructureDefinition-JP-QuestionnaireResponse.json",
     "fshName": "JP_QResponse",
     "fshType": "Profile",
-    "fshFile": "profiles/JP_QResponse.fsh",
+    "fshFile": "common/JP_QResponse.fsh",
     "startLine": 1,
     "endLine": 16
   },
   {
-    "outputFile": "ValueSet-jp-valueset-polst-document-section-code.json",
-    "fshName": "JP_ValueSet_POLST_Document_Section_Code",
+    "outputFile": "ValueSet-jp-valueset-polst-participant-code.json",
+    "fshName": "JP_ValueSet_POLST_Participant_Code",
     "fshType": "ValueSet",
-    "fshFile": "profiles/JP_ValueSet_POLST.fsh",
-    "startLine": 12,
-    "endLine": 19
-  },
-  {
-    "outputFile": "ValueSet-jp-valueset-polst-document-type-code.json",
-    "fshName": "JP_ValueSet_POLST_Document_Type_Code",
-    "fshType": "ValueSet",
-    "fshFile": "profiles/JP_ValueSet_POLST.fsh",
+    "fshFile": "valueSets/JP_ValueSet_POLST.fsh",
     "startLine": 2,
     "endLine": 9
   }
