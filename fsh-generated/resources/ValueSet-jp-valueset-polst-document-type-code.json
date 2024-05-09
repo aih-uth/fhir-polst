@@ -1,10 +1,10 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "JP_valueSet_documentTypeCode_Sample",
-  "id": "jp-valueSet-documentTypeCode-Sample",
-  "title": "サンプルFHIR文書の文書区分",
-  "description": "サンプルFHIR文書の文書区分",
+  "name": "JP_ValueSet_POLST_Document_Type_Code",
+  "id": "jp-valueset-polst-document-type-code",
+  "title": "POLST文書区分バリューセット",
+  "description": "POLST文書区分バリューセット",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/doc-typecodes",
   "experimental": false,
   "compose": {

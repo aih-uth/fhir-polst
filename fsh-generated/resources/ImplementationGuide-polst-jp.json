@@ -57,14 +57,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "CodeSystem/jp-codeSystem-IGsample-documentTypeCode"
-        },
-        "name": "FHIR文書の文書区分（医療文書全般）",
-        "description": "FHIR文書の文書区分（医療文書全般）",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/JP-QuestionnaireResponse"
         },
         "name": "JP_QResponse",
@@ -89,26 +81,34 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/jp-valueSet-documentTypeCode-Sample"
+          "reference": "CodeSystem/jp-codesystem-polst-document-section-code"
         },
-        "name": "サンプルFHIR文書の文書区分",
-        "description": "サンプルFHIR文書の文書区分",
+        "name": "POLST文書セクション区分コードシステム",
+        "description": "POLST文書セクション区分コードシステム",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "CodeSystem/jp-codeSystem-IGsample-document-section"
+          "reference": "ValueSet/jp-valueset-polst-document-section-code"
         },
-        "name": "サンプル医療文書セクション区分コード",
-        "description": "サンプル医療文書セクション区分コード",
+        "name": "POLST文書セクション区分コードバリューセット",
+        "description": "POLST文書セクション区分コードバリューセット",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/jp-valueset-IGsample-document-section"
+          "reference": "CodeSystem/jp-codesystem-polst-document-type-code"
         },
-        "name": "サンプル医療文書セクション区分コード　ValueSet",
-        "description": "サンプル医療文書セクション区分コード　ValueSet",
+        "name": "POLST文書区分コードシステム",
+        "description": "POLST文書区分コードシステム",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/jp-valueset-polst-document-type-code"
+        },
+        "name": "POLST文書区分バリューセット",
+        "description": "POLST文書区分バリューセット",
         "exampleBoolean": false
       }
     ],
@@ -249,11 +249,11 @@
       },
       {
         "code": "special-url",
-        "value": "http://jpfhir.jp/fhir/IGsample/CodeSystem/JP-CodeSystem-POLST.fsh"
+        "value": "http://jpfhir.jp/fhir/IGsample/CodeSystem/JP_CodeSystem_POLST.fsh"
       },
       {
         "code": "special-url",
-        "value": "http://jpfhir.jp/fhir/IGsample/ValueSet/JP-ValueSets-POLST.fsh"
+        "value": "http://jpfhir.jp/fhir/IGsample/ValueSet/JP_ValueSet_POLST.fsh"
       }
     ]
   }

@@ -1,17 +1,17 @@
 [
   {
-    "outputFile": "CodeSystem-jp-codeSystem-IGsample-document-section.json",
-    "fshName": "JP_codeSystem_IGsample_document_section",
+    "outputFile": "CodeSystem-jp-codesystem-polst-document-section-code.json",
+    "fshName": "JP_CodeSystem_POLST_Document_Section_Code",
     "fshType": "CodeSystem",
-    "fshFile": "profiles/JP-CodeSystem-POLST.fsh",
+    "fshFile": "profiles/JP_CodeSystem_POLST.fsh",
     "startLine": 14,
     "endLine": 24
   },
   {
-    "outputFile": "CodeSystem-jp-codeSystem-IGsample-documentTypeCode.json",
-    "fshName": "JP_codeSystem__IGsample_documentTypeCode",
+    "outputFile": "CodeSystem-jp-codesystem-polst-document-type-code.json",
+    "fshName": "JP_CodeSystem_POLST_Document_Type_Code",
     "fshType": "CodeSystem",
-    "fshFile": "profiles/JP-CodeSystem-POLST.fsh",
+    "fshFile": "profiles/JP_CodeSystem_POLST.fsh",
     "startLine": 2,
     "endLine": 11
   },
@@ -40,19 +40,19 @@
     "endLine": 16
   },
   {
-    "outputFile": "ValueSet-jp-valueSet-documentTypeCode-Sample.json",
-    "fshName": "JP_valueSet_documentTypeCode_Sample",
+    "outputFile": "ValueSet-jp-valueset-polst-document-section-code.json",
+    "fshName": "JP_ValueSet_POLST_Document_Section_Code",
     "fshType": "ValueSet",
-    "fshFile": "profiles/JP-ValueSets-POLST.fsh",
-    "startLine": 3,
-    "endLine": 10
+    "fshFile": "profiles/JP_ValueSet_POLST.fsh",
+    "startLine": 12,
+    "endLine": 19
   },
   {
-    "outputFile": "ValueSet-jp-valueset-IGsample-document-section.json",
-    "fshName": "JP_ValueSet_IGsample_document_section",
+    "outputFile": "ValueSet-jp-valueset-polst-document-type-code.json",
+    "fshName": "JP_ValueSet_POLST_Document_Type_Code",
     "fshType": "ValueSet",
-    "fshFile": "profiles/JP-ValueSets-POLST.fsh",
-    "startLine": 13,
-    "endLine": 20
+    "fshFile": "profiles/JP_ValueSet_POLST.fsh",
+    "startLine": 2,
+    "endLine": 9
   }
 ]

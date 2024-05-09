@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "JP_ValueSet_IGsample_document_section",
-  "id": "jp-valueset-IGsample-document-section",
-  "description": "サンプル医療文書セクション区分コード　ValueSet",
+  "name": "JP_ValueSet_POLST_Document_Section_Code",
+  "id": "jp-valueset-polst-document-section-code",
+  "description": "POLST文書セクション区分コードバリューセット",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/document-section",
-  "title": "サンプル医療文書セクション区分コード　ValueSet",
+  "title": "POLST文書セクション区分コードバリューセット",
   "experimental": false,
   "compose": {
     "include": [
