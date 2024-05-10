@@ -4,3 +4,6 @@ Alias: $JP_POLST_Participant_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-pol
 Alias: $JP_POLST_Profession_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-profession
 Alias: $JP_POLST_Section_A_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-a
 Alias: $JP_POLST_Section_B_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-b
+Alias: $JP_POLST_Section_C_CS = http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-c
+Alias: $JP_POLST_Section_C_TF_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-tf
+Alias: $JP_POLST_Section_C_DIV_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-div

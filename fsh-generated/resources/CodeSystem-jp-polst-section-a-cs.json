@@ -8,11 +8,11 @@
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-a",
   "concept": [
     {
-      "code": "12345-1",
+      "code": "12345-01",
       "display": "すべての心肺蘇生術を実施してください. Resuscitate （Full Code） "
     },
     {
-      "code": "12345-2",
+      "code": "12345-02",
       "display": "心肺蘇生術を実施しないでください. Do Not Attempt Resuscitation "
     }
   ],

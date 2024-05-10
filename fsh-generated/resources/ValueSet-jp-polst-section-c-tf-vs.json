@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "JP_POLST_Section_C_TF_VS",
+  "id": "jp-polst-section-c-tf-vs",
+  "title": "セクションC 経管栄養",
+  "description": "JP_POLST(JP) セクションC 経管栄養 VS",
+  "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-tf",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-c",
+        "concept": [
+          {
+            "code": "12345-00"
+          },
+          {
+            "code": "12345-01"
+          }
+        ]
+      }
+    ]
+  }
+}

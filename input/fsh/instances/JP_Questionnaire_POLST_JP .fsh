@@ -79,7 +79,7 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 
-* item[=].item[=].item[+].linkId = "i1_1"
+* item[=].item[=].item[+].linkId = "i2_1"
 * item[=].item[=].item[=].text = "心肺停止の場合；心肺蘇生術（CPR）について一つを選ぶ"
 * item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
 * item[=].item[=].item[=].required = true
@@ -92,9 +92,41 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 
-* item[=].item[=].item[+].linkId = "i2_1"
+* item[=].item[=].item[+].linkId = "i3_1"
 * item[=].item[=].item[=].text = "心肺停止の状態ではない場合；【生命を脅かす疾患に直面しているが，CPA の状態ではない（脈拍が触知したり，呼吸をしている）場合；一つを選ぶ】"
 * item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#open-choice
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_B_VS
+
+* item[=].item[+].linkId = "group_Header"
+* item[=].item[=].text = "セクションC"
+* item[=].item[=].type = http://hl7.org/fhir/item-type#group
+* item[=].item[=].required = true
+* item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "group_Header"
+* item[=].item[=].item[=].text = "人工的水分栄養補給"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#group
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+
+* item[=].item[=].item[=].item[+].linkId = "i4_1"
+* item[=].item[=].item[=].item[=].text = "経管栄養の実施"
+* item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
+* item[=].item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].item[=].repeats = false
+* item[=].item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_C_TF_VS
+
+* item[=].item[=].item[=].item[+].linkId = "i4_2"
+* item[=].item[=].item[=].item[=].text = "点滴の実施"
+* item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
+* item[=].item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].item[=].repeats = false
+* item[=].item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_C_DIV_VS
+
+* item[=].item[=].item[=].item[+].linkId = "i4_3"
+* item[=].item[=].item[=].item[=].text = "その他の指示"
+* item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#text
+* item[=].item[=].item[=].item[=].required = false
+* item[=].item[=].item[=].item[=].repeats = false

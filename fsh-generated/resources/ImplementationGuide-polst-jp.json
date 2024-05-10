@@ -121,6 +121,30 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/jp-polst-section-c-cs"
+        },
+        "name": "セクションC CS",
+        "description": "JP_POLST(JP) セクションC CS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/jp-polst-section-c-div-vs"
+        },
+        "name": "セクションC 点滴",
+        "description": "JP_POLST(JP) セクションC 点滴 VS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/jp-polst-section-c-tf-vs"
+        },
+        "name": "セクションC 経管栄養",
+        "description": "JP_POLST(JP) セクションC 経管栄養 VS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/JP-Questionnaire-POLST-JP"
         },
         "name": "日本臨床倫理学会版POLST（DNAR指示を含む）",

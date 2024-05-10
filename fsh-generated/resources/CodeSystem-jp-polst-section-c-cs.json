@@ -1,0 +1,55 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "JP_POLST_Section_C_CS",
+  "id": "jp-polst-section-c-cs",
+  "description": "JP_POLST(JP) セクションC CS",
+  "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-c",
+  "concept": [
+    {
+      "code": "12345-00",
+      "display": "経管栄養（胃ろうを含む）を実施する"
+    },
+    {
+      "code": "12345-01",
+      "display": "経管栄養を実施しない"
+    },
+    {
+      "code": "12345-02",
+      "display": "点滴を実施する"
+    },
+    {
+      "code": "12345-03",
+      "display": "点滴を実施しない"
+    },
+    {
+      "code": "12345-04",
+      "display": "抗菌剤を投与する"
+    },
+    {
+      "code": "12345-05",
+      "display": "抗菌剤を投与しない"
+    },
+    {
+      "code": "12345-06",
+      "display": "血液製剤を投与する"
+    },
+    {
+      "code": "12345-07",
+      "display": "血液製剤を投与しない"
+    },
+    {
+      "code": "12345-08",
+      "display": "人工透析を実施する"
+    },
+    {
+      "code": "12345-09",
+      "display": "人工透析を実施しない"
+    }
+  ],
+  "title": "セクションC CS",
+  "experimental": false,
+  "caseSensitive": false,
+  "count": 10
+}

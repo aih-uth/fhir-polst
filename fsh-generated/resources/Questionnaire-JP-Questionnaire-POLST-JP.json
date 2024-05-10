@@ -102,7 +102,7 @@
           "repeats": false,
           "item": [
             {
-              "linkId": "i1_1",
+              "linkId": "i2_1",
               "text": "心肺停止の場合；心肺蘇生術（CPR）について一つを選ぶ",
               "type": "choice",
               "required": true,
@@ -119,12 +119,53 @@
           "repeats": false,
           "item": [
             {
-              "linkId": "i2_1",
+              "linkId": "i3_1",
               "text": "心肺停止の状態ではない場合；【生命を脅かす疾患に直面しているが，CPA の状態ではない（脈拍が触知したり，呼吸をしている）場合；一つを選ぶ】",
               "type": "open-choice",
               "required": true,
               "repeats": false,
               "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-b"
+            }
+          ]
+        },
+        {
+          "linkId": "group_Header",
+          "text": "セクションC",
+          "type": "group",
+          "required": true,
+          "repeats": false,
+          "item": [
+            {
+              "linkId": "group_Header",
+              "text": "人工的水分栄養補給",
+              "type": "group",
+              "required": true,
+              "repeats": false,
+              "item": [
+                {
+                  "linkId": "i4_1",
+                  "text": "経管栄養の実施",
+                  "type": "choice",
+                  "required": true,
+                  "repeats": false,
+                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-tf"
+                },
+                {
+                  "linkId": "i4_2",
+                  "text": "点滴の実施",
+                  "type": "choice",
+                  "required": true,
+                  "repeats": false,
+                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-div"
+                },
+                {
+                  "linkId": "i4_3",
+                  "text": "その他の指示",
+                  "type": "text",
+                  "required": false,
+                  "repeats": false
+                }
+              ]
             }
           ]
         }

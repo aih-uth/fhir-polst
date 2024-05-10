@@ -37,3 +37,26 @@ Description: "JP_POLST(JP) セクションB VS"
 * ^status = #active
 * ^experimental = false
 * include codes from system http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-b
+
+
+// セクションC 経管栄養 VS
+ValueSet: JP_POLST_Section_C_TF_VS
+Id: jp-polst-section-c-tf-vs
+Title: "セクションC 経管栄養"
+Description: "JP_POLST(JP) セクションC 経管栄養 VS"
+* ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-tf"
+* ^status = #active
+* ^experimental = false
+* $JP_POLST_Section_C_CS#12345-00
+* $JP_POLST_Section_C_CS#12345-01
+
+// セクションC 点滴 VS
+ValueSet: JP_POLST_Section_C_DIV_VS
+Id: jp-polst-section-c-div-vs
+Title: "セクションC 点滴"
+Description: "JP_POLST(JP) セクションC 点滴 VS"
+* ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-div"
+* ^status = #active
+* ^experimental = false
+* $JP_POLST_Section_C_CS#12345-02
+* $JP_POLST_Section_C_CS#12345-03
