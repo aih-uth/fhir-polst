@@ -1,7 +1,7 @@
 Instance: JP-Questionnaire-POLST-JP
 InstanceOf: JP_Questionnaire_POLST_Common
 Usage: #definition
-Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
+Description: "日本臨床倫理学会版POLST（DNAR指示を含む）Questionnaire"
 
 * meta.profile[+] = "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Questionnaire_POLST_JP"
 * url = "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Questionnaire_POLST_JP"
@@ -9,8 +9,8 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * identifier.system = "http://jpfhir.jp/fhir/core/IdSystem/resourceInstance-identifier"
 * identifier.value = "JP-Questionnaire-POLST-JP-20240509"
 * version = "1.0"
-* name = "JP_Questionnaire_POLST_JP"
-* title = "日本臨床倫理学会版POLST（DNAR指示を含む）"
+* name = "日本臨床倫理学会版POLST（DNAR指示を含む）"
+* title = "日本臨床倫理学会版POLST（DNAR指示を含む）Questionnaire"
 * status = #draft
 * subjectType = http://hl7.org/fhir/fhir-types#Patient
 * date = "2024-05-09T00:00:00+09:00"
