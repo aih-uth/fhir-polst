@@ -3,7 +3,7 @@
   "status": "active",
   "name": "JP_POLST_Section_C_TF_VS",
   "id": "jp-polst-section-c-tf-vs",
-  "title": "セクションC 経管栄養",
+  "title": "セクションC (その他の医療処置) 経管栄養 VS",
   "description": "JP_POLST(JP) セクションC 経管栄養 VS",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-tf",
   "experimental": false,

@@ -1,10 +1,10 @@
 Output File                                             Name                           Type        FSH File                                    Lines
 CodeSystem-jp-polst-participant-cs.json                 JP_POLST_Participant_CS        CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        2 - 13
-CodeSystem-jp-polst-profession-cs.json                  JP_POLST_Profession_CS         CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        16 - 29
-CodeSystem-jp-polst-section-a-cs.json                   JP_POLST_Section_A_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        32 - 42
-CodeSystem-jp-polst-section-b-cs.json                   JP_POLST_Section_B_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        45 - 57
-CodeSystem-jp-polst-section-c-cs.json                   JP_POLST_Section_C_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        60 - 79
-CodeSystem-jp-polst-section-d-cs.json                   JP_POLST_Section_D_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        82 - 94
+CodeSystem-jp-polst-profession-cs.json                  JP_POLST_Profession_CS         CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        16 - 31
+CodeSystem-jp-polst-section-a-cs.json                   JP_POLST_Section_A_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        34 - 44
+CodeSystem-jp-polst-section-b-cs.json                   JP_POLST_Section_B_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        47 - 59
+CodeSystem-jp-polst-section-c-cs.json                   JP_POLST_Section_C_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        62 - 81
+CodeSystem-jp-polst-section-d-cs.json                   JP_POLST_Section_D_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        84 - 96
 Questionnaire-JP-Questionnaire-POLST-JP.json            JP-Questionnaire-POLST-JP      Instance    instances/JP_Questionnaire_POLST_JP .fsh    1 - 220
 StructureDefinition-JP-QResponse-POLST-Common.json      JP_QResponse_POLST_Common      Profile     profiles/JP_QResponse_POLST_Common.fsh      1 - 71
 StructureDefinition-JP-Questionnaire-POLST-Common.json  JP_Questionnaire_POLST_Common  Profile     profiles/JP_Questionnaire_POLST_Common.fsh  1 - 60

@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "JP_POLST_Section_B_CS",
   "id": "jp-polst-section-b-cs",
-  "description": "JP_POLST(JP) セクションB CS",
+  "description": "JP_POLST(JP) セクションB (心肺停止の状態ではない場合) CS",
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-b",
   "concept": [
     {
@@ -24,7 +24,7 @@
       "display": "その他指示"
     }
   ],
-  "title": "セクションB CS",
+  "title": "セクションB (心肺停止の状態ではない場合) CS",
   "experimental": false,
   "caseSensitive": false,
   "count": 4

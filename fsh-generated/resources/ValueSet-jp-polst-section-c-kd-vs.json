@@ -3,7 +3,7 @@
   "status": "active",
   "name": "JP_POLST_Section_C_KD_VS",
   "id": "jp-polst-section-c-kd-vs",
-  "title": "セクションC 人工透析",
+  "title": "セクションC (その他の医療処置) 人工透析 VS",
   "description": "JP_POLST(JP) セクションC 人工透析 VS",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-kd",
   "experimental": false,

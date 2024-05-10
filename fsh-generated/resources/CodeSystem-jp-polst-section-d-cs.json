@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "JP_POLST_Section_D_CS",
   "id": "jp-polst-section-d-cs",
-  "description": "JP_POLST(JP) セクションD CS",
+  "description": "JP_POLST(JP) セクションD (患者による事前指示) CS",
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-d",
   "concept": [
     {
@@ -24,7 +24,7 @@
       "display": "その他指示"
     }
   ],
-  "title": "セクションD CS",
+  "title": "セクションD (患者による事前指示) CS",
   "experimental": false,
   "caseSensitive": false,
   "count": 4

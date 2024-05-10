@@ -3,7 +3,7 @@
   "status": "active",
   "name": "JP_POLST_Section_C_DIV_VS",
   "id": "jp-polst-section-c-div-vs",
-  "title": "セクションC 点滴",
+  "title": "セクションC (その他の医療処置) 点滴 VS",
   "description": "JP_POLST(JP) セクションC 点滴 VS",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-div",
   "experimental": false,

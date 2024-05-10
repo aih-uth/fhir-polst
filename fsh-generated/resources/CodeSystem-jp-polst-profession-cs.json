@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "JP_POLST_Profession_CS",
   "id": "jp-polst-profession-cs",
-  "description": "JP_POLST(JP) 職種CS",
+  "description": "JP_POLST(JP) 職種 CS",
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-profession",
   "concept": [
     {
@@ -25,11 +25,19 @@
     },
     {
       "code": "12345-04",
+      "display": "医学生"
+    },
+    {
+      "code": "12345-05",
+      "display": "看護学生"
+    },
+    {
+      "code": "12345-06",
       "display": "その他"
     }
   ],
-  "title": "職種CS",
+  "title": "職種 CS",
   "experimental": false,
   "caseSensitive": false,
-  "count": 5
+  "count": 7
 }

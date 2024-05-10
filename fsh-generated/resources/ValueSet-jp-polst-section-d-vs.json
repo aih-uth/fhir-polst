@@ -3,7 +3,7 @@
   "status": "active",
   "name": "JP_POLST_Section_D_VS",
   "id": "jp-polst-section-d-vs",
-  "title": "セクションD 患者による事前指示",
+  "title": "セクションD (患者による事前指示) 患者による事前指示 VS",
   "description": "JP_POLST(JP) セクションD 患者による事前指示 VS",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-d",
   "experimental": false,

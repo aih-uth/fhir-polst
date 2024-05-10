@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "JP_POLST_Section_C_CS",
   "id": "jp-polst-section-c-cs",
-  "description": "JP_POLST(JP) セクションC CS",
+  "description": "JP_POLST(JP) セクションC (その他の医療処置) CS",
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-c",
   "concept": [
     {
@@ -52,7 +52,7 @@
       "display": "その他指示"
     }
   ],
-  "title": "セクションC CS",
+  "title": "セクションC (その他の医療処置) CS",
   "experimental": false,
   "caseSensitive": false,
   "count": 11

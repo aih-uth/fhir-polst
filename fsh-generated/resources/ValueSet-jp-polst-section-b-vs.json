@@ -3,8 +3,8 @@
   "status": "active",
   "name": "JP_POLST_Section_B_VS",
   "id": "jp-polst-section-b-vs",
-  "title": "セクションB",
-  "description": "JP_POLST(JP) セクションB VS",
+  "title": "セクションB (心肺停止の状態ではない場合) VS",
+  "description": "JP_POLST(JP) セクションB (心肺停止の状態ではない場合) VS",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-b",
   "experimental": false,
   "compose": {

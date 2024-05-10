@@ -2,10 +2,10 @@
 [JP_QResponse_POLST_Common]: StructureDefinition-JP-QResponse-POLST-Common.html
 [JP_Questionnaire]: StructureDefinition-JP-Questionnaire.html
 [JP_Questionnaire_POLST_Common]: StructureDefinition-JP-Questionnaire-POLST-Common.html
-[JP_POLST_Section_A_VS]: ValueSet-jp-polst-section-a-vs.html
 [JP_POLST_Section_A_CS]: CodeSystem-jp-polst-section-a-cs.html
-[JP_POLST_Section_B_VS]: ValueSet-jp-polst-section-b-vs.html
+[JP_POLST_Section_A_VS]: ValueSet-jp-polst-section-a-vs.html
 [JP_POLST_Section_B_CS]: CodeSystem-jp-polst-section-b-cs.html
+[JP_POLST_Section_B_VS]: ValueSet-jp-polst-section-b-vs.html
 [JP_POLST_Section_C_CS]: CodeSystem-jp-polst-section-c-cs.html
 [JP_POLST_Section_C_KD_VS]: ValueSet-jp-polst-section-c-kd-vs.html
 [JP_POLST_Section_C_ABD_VS]: ValueSet-jp-polst-section-c-abd-vs.html
@@ -15,7 +15,7 @@
 [JP_POLST_Section_D_CS]: CodeSystem-jp-polst-section-d-cs.html
 [JP_POLST_Section_D_VS]: ValueSet-jp-polst-section-d-vs.html
 [JP-Questionnaire-POLST-JP]: Questionnaire-JP-Questionnaire-POLST-JP.html
-[JP_POLST_Profession_VS]: ValueSet-jp-polst-profession-vs.html
 [JP_POLST_Profession_CS]: CodeSystem-jp-polst-profession-cs.html
-[JP_POLST_Participant_VS]: ValueSet-jp-polst-participant-vs.html
+[JP_POLST_Profession_VS]: ValueSet-jp-polst-profession-vs.html
 [JP_POLST_Participant_CS]: CodeSystem-jp-polst-participant-cs.html
+[JP_POLST_Participant_VS]: ValueSet-jp-polst-participant-vs.html

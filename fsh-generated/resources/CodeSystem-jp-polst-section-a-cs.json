@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "JP_POLST_Section_A_CS",
   "id": "jp-polst-section-a-cs",
-  "description": "JP_POLST(JP) セクションA CS",
+  "description": "JP_POLST(JP) セクションA (心肺停止の場合) CS",
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-a",
   "concept": [
     {
@@ -16,7 +16,7 @@
       "display": "心肺蘇生術を実施しないでください. Do Not Attempt Resuscitation "
     }
   ],
-  "title": "セクションA CS",
+  "title": "セクションA (心肺停止の場合) CS",
   "experimental": false,
   "caseSensitive": false,
   "count": 2

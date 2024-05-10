@@ -3,8 +3,8 @@
   "status": "active",
   "name": "JP_POLST_Participant_VS",
   "id": "jp-polst-participant-vs",
-  "title": "話し合いの参加者",
-  "description": "JP_POLST(JP) 話し合いの参加者VS",
+  "title": "話し合いの参加者 VS",
+  "description": "JP_POLST(JP) 話し合いの参加者 VS",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-participant",
   "experimental": false,
   "compose": {

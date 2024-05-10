@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "JP_POLST_Participant_CS",
   "id": "jp-polst-participant-cs",
-  "description": "JP_POLST(JP) 話し合いの参加者CS",
+  "description": "JP_POLST(JP) 話し合いの参加者 CS",
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-participant",
   "concept": [
     {
@@ -20,7 +20,7 @@
       "display": "その他"
     }
   ],
-  "title": "話し合いの参加者CS",
+  "title": "話し合いの参加者 CS",
   "experimental": false,
   "caseSensitive": false,
   "count": 3

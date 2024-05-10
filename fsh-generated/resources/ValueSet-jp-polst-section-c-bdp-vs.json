@@ -3,7 +3,7 @@
   "status": "active",
   "name": "JP_POLST_Section_C_BDP_VS",
   "id": "jp-polst-section-c-bdp-vs",
-  "title": "セクションC 血液製剤",
+  "title": "セクションC (その他の医療処置) 血液製剤 VS",
   "description": "JP_POLST(JP) セクションC 血液製剤 VS",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-bdp",
   "experimental": false,

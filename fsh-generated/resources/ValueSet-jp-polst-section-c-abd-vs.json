@@ -3,7 +3,7 @@
   "status": "active",
   "name": "JP_POLST_Section_C_ABD_VS",
   "id": "jp-polst-section-c-abd-vs",
-  "title": "セクションC 抗菌薬",
+  "title": "セクションC (その他の医療処置) 抗菌薬 VS",
   "description": "JP_POLST(JP) セクションC 抗菌薬 VS",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-abd",
   "experimental": false,
