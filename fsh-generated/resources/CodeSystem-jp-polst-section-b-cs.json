@@ -9,19 +9,23 @@
   "concept": [
     {
       "code": "12345-00",
-      "display": "苦痛緩和を最優先とする医療処置（a）；"
+      "display": "苦痛緩和を最優先とする医療処置（a）"
     },
     {
       "code": "12345-01",
-      "display": "非侵襲的医療処置（b）；"
+      "display": "非侵襲的医療処置（b）"
     },
     {
       "code": "12345-02",
-      "display": "侵襲的医療も含む医療処置 Full Treatment（c）；"
+      "display": "侵襲的医療も含む医療処置 Full Treatment（c）"
+    },
+    {
+      "code": "12345-03",
+      "display": "その他指示"
     }
   ],
   "title": "セクションB CS",
   "experimental": false,
   "caseSensitive": false,
-  "count": 3
+  "count": 4
 }

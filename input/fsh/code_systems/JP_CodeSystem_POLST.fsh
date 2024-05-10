@@ -51,9 +51,10 @@ Description: "JP_POLST(JP) セクションB CS"
 * ^experimental = false
 * ^content = #complete
 * ^caseSensitive = false
-* #12345-00 "苦痛緩和を最優先とする医療処置（a）；"
-* #12345-01 "非侵襲的医療処置（b）；"
-* #12345-02 "侵襲的医療も含む医療処置 Full Treatment（c）；"
+* #12345-00 "苦痛緩和を最優先とする医療処置（a）"
+* #12345-01 "非侵襲的医療処置（b）"
+* #12345-02 "侵襲的医療も含む医療処置 Full Treatment（c）"
+* #12345-03 "その他指示"
 
 // セクションC 経管栄養
 CodeSystem: JP_POLST_Section_C_CS

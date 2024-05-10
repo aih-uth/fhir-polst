@@ -29,23 +29,23 @@
     "fshType": "CodeSystem",
     "fshFile": "code_systems/JP_CodeSystem_POLST.fsh",
     "startLine": 45,
-    "endLine": 56
+    "endLine": 57
   },
   {
     "outputFile": "CodeSystem-jp-polst-section-c-cs.json",
     "fshName": "JP_POLST_Section_C_CS",
     "fshType": "CodeSystem",
     "fshFile": "code_systems/JP_CodeSystem_POLST.fsh",
-    "startLine": 59,
-    "endLine": 78
+    "startLine": 60,
+    "endLine": 79
   },
   {
     "outputFile": "CodeSystem-jp-polst-section-d-cs.json",
     "fshName": "JP_POLST_Section_D_CS",
     "fshType": "CodeSystem",
     "fshFile": "code_systems/JP_CodeSystem_POLST.fsh",
-    "startLine": 81,
-    "endLine": 93
+    "startLine": 82,
+    "endLine": 94
   },
   {
     "outputFile": "Questionnaire-JP-Questionnaire-POLST-JP.json",
@@ -53,7 +53,7 @@
     "fshType": "Instance",
     "fshFile": "instances/JP_Questionnaire_POLST_JP .fsh",
     "startLine": 1,
-    "endLine": 214
+    "endLine": 220
   },
   {
     "outputFile": "StructureDefinition-JP-QResponse-POLST-Common.json",

@@ -120,11 +120,20 @@
           "item": [
             {
               "linkId": "i3_1",
-              "text": "心肺停止の状態ではない場合；【生命を脅かす疾患に直面しているが，CPA の状態ではない（脈拍が触知したり，呼吸をしている）場合；一つを選ぶ】",
-              "type": "open-choice",
+              "text": "生命を脅かす疾患に直面しているが，CPA の状態ではない（脈拍が触知したり，呼吸をしている）場合；一つを選ぶ",
+              "type": "choice",
               "required": true,
               "repeats": false,
-              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-b"
+              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-b",
+              "item": [
+                {
+                  "linkId": "i3_1",
+                  "text": "その他指示の内容",
+                  "type": "text",
+                  "required": false,
+                  "repeats": false
+                }
+              ]
             }
           ]
         },
