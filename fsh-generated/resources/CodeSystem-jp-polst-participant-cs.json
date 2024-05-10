@@ -2,10 +2,10 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "JP_CodeSystem_POLST_Participant_Code",
-  "id": "jp-codesystem-polst-participant-code",
+  "name": "JP_POLST_Participant_CS",
+  "id": "jp-polst-participant-cs",
   "description": "JP_POLST(JP) 話し合いの参加者CS",
-  "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/polst-jp-participant-code",
+  "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-participant",
   "concept": [
     {
       "code": "12345-1",

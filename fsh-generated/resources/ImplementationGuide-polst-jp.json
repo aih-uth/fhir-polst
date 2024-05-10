@@ -97,18 +97,34 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/jp-codesystem-polst-participant-code"
+          "reference": "ValueSet/jp-polst-profession-vs"
         },
-        "name": "話し合いの参加者CS",
-        "description": "JP_POLST(JP) 話し合いの参加者CS",
+        "name": "職種",
+        "description": "JP_POLST(JP) 職種VS",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/jp-valueset-polst-participant-code"
+          "reference": "CodeSystem/jp-polst-profession-cs"
         },
-        "name": "話し合いの参加者VS",
+        "name": "職種CS",
+        "description": "JP_POLST(JP) 職種CS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/jp-polst-participant-vs"
+        },
+        "name": "話し合いの参加者",
         "description": "JP_POLST(JP) 話し合いの参加者VS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/jp-polst-participant-cs"
+        },
+        "name": "話し合いの参加者CS",
+        "description": "JP_POLST(JP) 話し合いの参加者CS",
         "exampleBoolean": false
       }
     ],

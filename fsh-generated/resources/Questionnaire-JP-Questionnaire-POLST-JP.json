@@ -35,10 +35,32 @@
         {
           "linkId": "i0_1",
           "text": "話し合いの参加者",
-          "type": "open-choice",
+          "type": "choice",
           "required": true,
           "repeats": true,
-          "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/polst-jp-participant-code"
+          "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-participant"
+        },
+        {
+          "linkId": "i0_2",
+          "text": "医療ケアチーム内の話し合いの参加者",
+          "type": "group",
+          "required": true,
+          "repeats": true
+        },
+        {
+          "linkId": "i0_21",
+          "text": "氏名",
+          "type": "string",
+          "required": true,
+          "repeats": false
+        },
+        {
+          "linkId": "i0_22",
+          "text": "職種",
+          "type": "choice",
+          "required": true,
+          "repeats": false,
+          "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-profession-vs"
         }
       ]
     }

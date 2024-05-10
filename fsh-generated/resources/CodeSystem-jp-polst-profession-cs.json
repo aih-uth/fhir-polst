@@ -1,0 +1,35 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "JP_POLST_Profession_CS",
+  "id": "jp-polst-profession-cs",
+  "description": "JP_POLST(JP) 職種CS",
+  "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-profession",
+  "concept": [
+    {
+      "code": "12345-1",
+      "display": "医師"
+    },
+    {
+      "code": "12345-2",
+      "display": "研修医"
+    },
+    {
+      "code": "12345-3",
+      "display": "看護師"
+    },
+    {
+      "code": "12345-4",
+      "display": "薬剤師"
+    },
+    {
+      "code": "12345-5",
+      "display": "その他"
+    }
+  ],
+  "title": "職種CS",
+  "experimental": false,
+  "caseSensitive": false,
+  "count": 5
+}

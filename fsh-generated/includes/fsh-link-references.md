@@ -3,5 +3,7 @@
 [JP_Questionnaire]: StructureDefinition-JP-Questionnaire.html
 [JP_Questionnaire_POLST_Common]: StructureDefinition-JP-Questionnaire-POLST-Common.html
 [JP-Questionnaire-POLST-JP]: Questionnaire-JP-Questionnaire-POLST-JP.html
-[JP_CodeSystem_POLST_Participant_Code]: CodeSystem-jp-codesystem-polst-participant-code.html
-[JP_ValueSet_POLST_Participant_Code]: ValueSet-jp-valueset-polst-participant-code.html
+[JP_POLST_Profession_VS]: ValueSet-jp-polst-profession-vs.html
+[JP_POLST_Profession_CS]: CodeSystem-jp-polst-profession-cs.html
+[JP_POLST_Participant_VS]: ValueSet-jp-polst-participant-vs.html
+[JP_POLST_Participant_CS]: CodeSystem-jp-polst-participant-cs.html

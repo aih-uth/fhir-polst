@@ -25,7 +25,26 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 
 * item[=].item[+].linkId = "i0_1"
 * item[=].item[=].text = "話し合いの参加者"
-* item[=].item[=].type = http://hl7.org/fhir/item-type#open-choice
+* item[=].item[=].type = http://hl7.org/fhir/item-type#choice
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
-* item[=].item[=].answerValueSet = $JP_Participant_VS
+* item[=].item[=].answerValueSet = $JP_POLST_Participant_VS
+
+* item[=].item[+].linkId = "i0_2"
+* item[=].item[=].text = "医療ケアチーム内の話し合いの参加者"
+* item[=].item[=].type = http://hl7.org/fhir/item-type#group
+* item[=].item[=].required = true
+* item[=].item[=].repeats = true
+
+* item[=].item[+].linkId = "i0_21"
+* item[=].item[=].text = "氏名"
+* item[=].item[=].type = http://hl7.org/fhir/item-type#string
+* item[=].item[=].required = true
+* item[=].item[=].repeats = false
+
+* item[=].item[+].linkId = "i0_22"
+* item[=].item[=].text = "職種"
+* item[=].item[=].type = http://hl7.org/fhir/item-type#choice
+* item[=].item[=].required = true
+* item[=].item[=].repeats = false
+* item[=].item[=].answerValueSet = $JP_POLST_Profession_VS
