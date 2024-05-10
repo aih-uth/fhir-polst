@@ -1,7 +1,7 @@
 Output File                                             Name                           Type        FSH File                                    Lines
 CodeSystem-jp-polst-participant-cs.json                 JP_POLST_Participant_CS        CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        2 - 13
 CodeSystem-jp-polst-profession-cs.json                  JP_POLST_Profession_CS         CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        16 - 29
-Questionnaire-JP-Questionnaire-POLST-JP.json            JP-Questionnaire-POLST-JP      Instance    instances/JP_Questionnaire_POLST_JP .fsh    1 - 50
+Questionnaire-JP-Questionnaire-POLST-JP.json            JP-Questionnaire-POLST-JP      Instance    instances/JP_Questionnaire_POLST_JP .fsh    1 - 74
 StructureDefinition-JP-QResponse-POLST-Common.json      JP_QResponse_POLST_Common      Profile     profiles/JP_QResponse_POLST_Common.fsh      1 - 71
 StructureDefinition-JP-Questionnaire-POLST-Common.json  JP_Questionnaire_POLST_Common  Profile     profiles/JP_Questionnaire_POLST_Common.fsh  1 - 60
 StructureDefinition-JP-Questionnaire.json               JP_Questionnaire               Profile     profiles/JP_Questionnaire.fsh               1 - 16

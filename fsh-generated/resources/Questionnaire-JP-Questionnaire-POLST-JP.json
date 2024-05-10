@@ -45,22 +45,54 @@
           "text": "医療ケアチーム内の話し合いの参加者",
           "type": "group",
           "required": true,
-          "repeats": true
+          "repeats": true,
+          "item": [
+            {
+              "linkId": "i0_21",
+              "text": "氏名",
+              "type": "string",
+              "required": true,
+              "repeats": false
+            },
+            {
+              "linkId": "i0_22",
+              "text": "職種",
+              "type": "choice",
+              "required": true,
+              "repeats": false,
+              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-profession-vs"
+            }
+          ]
         },
         {
-          "linkId": "i0_21",
-          "text": "氏名",
-          "type": "string",
-          "required": true,
-          "repeats": false
-        },
-        {
-          "linkId": "i0_22",
-          "text": "職種",
-          "type": "choice",
+          "linkId": "i0_3",
+          "text": "担当医師",
+          "type": "group",
           "required": true,
           "repeats": false,
-          "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-profession-vs"
+          "item": [
+            {
+              "linkId": "i0_31",
+              "text": "署名",
+              "type": "string",
+              "required": true,
+              "repeats": false
+            },
+            {
+              "linkId": "i0_32",
+              "text": "連絡先",
+              "type": "string",
+              "required": true,
+              "repeats": false
+            },
+            {
+              "linkId": "i0_33",
+              "text": "日付",
+              "type": "date",
+              "required": true,
+              "repeats": false
+            }
+          ]
         }
       ]
     }

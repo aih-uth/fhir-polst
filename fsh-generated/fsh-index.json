@@ -21,7 +21,7 @@
     "fshType": "Instance",
     "fshFile": "instances/JP_Questionnaire_POLST_JP .fsh",
     "startLine": 1,
-    "endLine": 50
+    "endLine": 74
   },
   {
     "outputFile": "StructureDefinition-JP-QResponse-POLST-Common.json",

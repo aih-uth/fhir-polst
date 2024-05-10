@@ -36,15 +36,39 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 
-* item[=].item[+].linkId = "i0_21"
-* item[=].item[=].text = "氏名"
-* item[=].item[=].type = http://hl7.org/fhir/item-type#string
+* item[=].item[=].item[+].linkId = "i0_21"
+* item[=].item[=].item[=].text = "氏名"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#string
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "i0_22"
+* item[=].item[=].item[=].text = "職種"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+* item[=].item[=].item[=].answerValueSet = $JP_POLST_Profession_VS
+
+* item[=].item[+].linkId = "i0_3"
+* item[=].item[=].text = "担当医師"
+* item[=].item[=].type = http://hl7.org/fhir/item-type#group
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 
-* item[=].item[+].linkId = "i0_22"
-* item[=].item[=].text = "職種"
-* item[=].item[=].type = http://hl7.org/fhir/item-type#choice
-* item[=].item[=].required = true
-* item[=].item[=].repeats = false
-* item[=].item[=].answerValueSet = $JP_POLST_Profession_VS
+* item[=].item[=].item[+].linkId = "i0_31"
+* item[=].item[=].item[=].text = "署名"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#string
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "i0_32"
+* item[=].item[=].item[=].text = "連絡先"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#string
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "i0_33"
+* item[=].item[=].item[=].text = "日付"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#date
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
