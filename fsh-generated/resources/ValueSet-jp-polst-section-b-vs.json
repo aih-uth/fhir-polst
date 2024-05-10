@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "JP_POLST_Section_B_VS",
+  "id": "jp-polst-section-b-vs",
+  "title": "セクションB",
+  "description": "JP_POLST(JP) セクションB VS",
+  "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-b",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-b"
+      }
+    ]
+  }
+}

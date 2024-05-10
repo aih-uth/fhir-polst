@@ -5,7 +5,7 @@
   "id": "jp-polst-profession-vs",
   "title": "職種",
   "description": "JP_POLST(JP) 職種VS",
-  "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-profession-vs",
+  "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-profession",
   "experimental": false,
   "compose": {
     "include": [

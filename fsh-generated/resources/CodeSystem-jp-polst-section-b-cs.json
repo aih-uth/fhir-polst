@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "JP_POLST_Section_B_CS",
+  "id": "jp-polst-section-b-cs",
+  "description": "JP_POLST(JP) セクションB CS",
+  "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-b",
+  "concept": [
+    {
+      "code": "12345-1",
+      "display": "苦痛緩和を最優先とする医療処置（a）；"
+    },
+    {
+      "code": "12345-2",
+      "display": "非侵襲的医療処置（b）；"
+    },
+    {
+      "code": "12345-3",
+      "display": "侵襲的医療も含む医療処置 Full Treatment（c）；"
+    }
+  ],
+  "title": "セクションB CS",
+  "experimental": false,
+  "caseSensitive": false,
+  "count": 3
+}

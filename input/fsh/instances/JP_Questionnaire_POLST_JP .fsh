@@ -72,3 +72,29 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#date
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].repeats = false
+
+* item[=].item[+].linkId = "group_Header"
+* item[=].item[=].text = "セクションA"
+* item[=].item[=].type = http://hl7.org/fhir/item-type#group
+* item[=].item[=].required = true
+* item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "i1_1"
+* item[=].item[=].item[=].text = "心肺停止の場合；心肺蘇生術（CPR）について一つを選ぶ"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+* item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_A_VS
+
+* item[=].item[+].linkId = "group_Header"
+* item[=].item[=].text = "セクションB"
+* item[=].item[=].type = http://hl7.org/fhir/item-type#group
+* item[=].item[=].required = true
+* item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "i2_1"
+* item[=].item[=].item[=].text = "心肺停止の状態ではない場合；【生命を脅かす疾患に直面しているが，CPA の状態ではない（脈拍が触知したり，呼吸をしている）場合；一つを選ぶ】"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#open-choice
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+* item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_B_VS

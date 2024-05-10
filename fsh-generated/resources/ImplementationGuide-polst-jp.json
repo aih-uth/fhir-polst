@@ -89,6 +89,38 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/jp-polst-section-a-vs"
+        },
+        "name": "セクションA",
+        "description": "JP_POLST(JP) セクションA VS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/jp-polst-section-a-cs"
+        },
+        "name": "セクションA CS",
+        "description": "JP_POLST(JP) セクションA CS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/jp-polst-section-b-vs"
+        },
+        "name": "セクションB",
+        "description": "JP_POLST(JP) セクションB VS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/jp-polst-section-b-cs"
+        },
+        "name": "セクションB CS",
+        "description": "JP_POLST(JP) セクションB CS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/JP-Questionnaire-POLST-JP"
         },
         "name": "日本臨床倫理学会版POLST（DNAR指示を含む）",

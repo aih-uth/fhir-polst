@@ -2,6 +2,10 @@
 [JP_QResponse_POLST_Common]: StructureDefinition-JP-QResponse-POLST-Common.html
 [JP_Questionnaire]: StructureDefinition-JP-Questionnaire.html
 [JP_Questionnaire_POLST_Common]: StructureDefinition-JP-Questionnaire-POLST-Common.html
+[JP_POLST_Section_A_VS]: ValueSet-jp-polst-section-a-vs.html
+[JP_POLST_Section_A_CS]: CodeSystem-jp-polst-section-a-cs.html
+[JP_POLST_Section_B_VS]: ValueSet-jp-polst-section-b-vs.html
+[JP_POLST_Section_B_CS]: CodeSystem-jp-polst-section-b-cs.html
 [JP-Questionnaire-POLST-JP]: Questionnaire-JP-Questionnaire-POLST-JP.html
 [JP_POLST_Profession_VS]: ValueSet-jp-polst-profession-vs.html
 [JP_POLST_Profession_CS]: CodeSystem-jp-polst-profession-cs.html
