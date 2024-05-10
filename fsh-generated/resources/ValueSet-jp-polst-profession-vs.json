@@ -3,7 +3,7 @@
   "status": "active",
   "name": "JP_POLST_Profession_VS",
   "id": "jp-polst-profession-vs",
-  "title": "職種 ValueSet",
+  "title": "職種 VS",
   "description": "JP_POLST(JP) 職種 VS",
   "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-profession",
   "experimental": false,

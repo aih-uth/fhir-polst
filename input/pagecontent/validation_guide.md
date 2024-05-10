@@ -20,7 +20,7 @@ Validationの具体的手順と、出力の解釈方法について説明する�
 
   　 - fhir-core-pkgs-<span style="color: blue;">20231111-forV6.1.8-20230921</span> のような名前のフォルダが作成される。青字の部分はダウンロード時期により異なる。その中にpackagesフォルダが作成され、packagesフォルダ配下は以下のようなフォルダ構成になっていることを確認する。各フォルダ内にはさらにフォルダやファイルが存在するがここでは省略する。packageフォルダ内のフォルダ名や数は、ダウンロード時期による異なることがあるので、下図は一例である。
 
-  
+
 ```
  packages
 ├── hl7.fhir.r4.core#4.0.1
@@ -51,7 +51,7 @@ Validationの具体的手順と、出力の解釈方法について説明する�
     └── packages.ini
 
 ```
-    
+
 #####  Validation作業を行う起点となる作業フォルダを用意する。
 ここでは [vwork] と書く。次に [vwork] 直下に、以下の３つのフォルダを作成する。フォルダ名は自由だが、ここでは以下のように　 [xxxx] 　と記載する。
 
@@ -69,11 +69,11 @@ Validationの具体的手順と、出力の解釈方法について説明する�
     - tgz形式 : [https://jpfhir.jp/fhir/core/1.1.2/jp-core.r4-1.1.2.tgz](https://jpfhir.jp/fhir/core/1.1.2/jp-core.r4-1.1.2.tgz)
 
   - jpfhir-terminology.r4　パッケージ
-      
+
     - tgz形式 : [https://jpfhir.jp/fhir/core/terminology/jpfhir-terminology.r4-1.1.1.tgz](https://jpfhir.jp/fhir/core/terminology/jpfhir-terminology.r4-1.1.1.tgz)
- 　 
+ 　
   - jp-sample.r4　パッケージ
-      
+
     - tgz形式 : [https://jpfhir.jp/fhir/sample/jp-sample.r4-1.0.0.tgz](https://jpfhir.jp/fhir/sample/jp-sample.r4-1.1.1.tgz)
 
 #####  検証対象となる json形式のファイルをひとつ以上、[targets] 直下に配置する。
@@ -91,7 +91,7 @@ Validationの具体的手順と、出力の解釈方法について説明する�
 
 また、最新版validatorは以下のリンクからダウンロードできる。
   - [https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar]
- 
+
 しかし、更新の頻度は非常に多く、時には最新版にバグがあって、数日後に修正版がリリースされたりするため、ある程度安定した版で、動作確認がとれており、本仕様のValidationに問題がない過去のバージョンを使うことを勧める。<span style="color: blue;">ここでは、v6.1.8 (2023.9.21)版を採用している</span>ので、特に今後の変更記載がなく、他に理由がない限りこのバージョンをダウンロードすることを勧める。
 
 
@@ -113,7 +113,7 @@ Validation の実行
 
   - 実行コマンド例
     [vwork] フォルダに位置した状態で、以下を途中で改行せず、１行で入力する。
-    
+
     (行末の\は次行との継続の意味でいれてある記号である。１行で入力するので不要であれば削除すること)。適宜、バッチファイル（スクリプトファイル）を作成するとよい。
 
 ```  bash
@@ -130,8 +130,8 @@ Validation の実行
       -tx n/a  \
       -ig [pkgSample]/jp-core.r4-1.1.2.tgz  \
       -ig [pkgSample]/jpfhir-terminology.r4-1.1.1.tgz  \
-      -ig [pkgSample]/jp-sample.r4-1.0.0.tgz  
-        
+      -ig [pkgSample]/jp-sample.r4-1.0.0.tgz
+
 ```
 
 上記のパラメータの説明は以下のとおり。
@@ -165,7 +165,7 @@ Validationコマンドのパラメータ説明
 
 実行コマンド例：
 
-``` {.copy} 
+``` {.copy}
 java -jar ../work/validator_cli_6.1.8.jar ExampleJson/*.json -version 4.0.1  -language ja  \
  -ig pkgValidation/jp-core.r4#1.1.2.tgz -ig pkgValidation/jpfhir-terminology#1.1.1.tgz \
  -ig pkgValidation/jp-sample.r4-1.0.0.tgz -locale ja-JP -tx n/a  -want-invariants-in-messages  \

@@ -6,8 +6,8 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: polst-jp
 canonical: http://jpfhir.jp/fhir/polst-jp
-name: "日本版POLST（DNAR指示を含む）のFHIR文書実装ガイド"
-title: "日本版POLSTのためのFHIR文書実装ガイド"
+name: "日本版POLST（DNAR指示を含む）（日本臨床倫理学会作成版）のFHIR文書実装ガイド"
+title: "日本版POLST（日本臨床倫理学会作成版）のためのFHIR文書実装ガイド"
 description: "日本版POLST（DNAR指示を含む）（日本臨床倫理学会作成版）のFHIR文書実装ガイド"
 status: draft # draft | active | retired | unknown
 version: 1.0.0
@@ -37,9 +37,9 @@ dependencies:
 pages:
   index.md:
     title: 日本版POLSTのFHIR文書実装ガイド
-  samplePage.md:
+  jp-polst.md:
     title: 詳細説明
-  validationGuide.md:
+  validation_guide.md:
     title: Validationガイド
 
 #-------------------------------------
@@ -48,15 +48,15 @@ pages:
 menu:
   Home:
     本文: index.html
-    詳細説明: samplePage.html
+    詳細説明: jp-polst.html
     プロファイル: artifacts.html
   Artifacts:
     Artifacts: artifacts.html
   Validationガイド:
-    Validationガイド: validationGuide.html
+    Validationガイド: validation_guide.html
   パッケージDownload:
-    標準(diff)版: https://jpfhir.jp/fhir/sample/jp-sample.r4-1.0.0.tgz
-    snapshot版: https://jpfhir.jp/fhir/sample/jp-sample.r4-1.0.0-snap.tgz
+    標準(diff)版: https://jpfhir.jp/fhir/kawazoe/jp-sample.r4-1.0.0.tgz
+    snapshot版: https://jpfhir.jp/fhir/kawazoe/jp-sample.r4-1.0.0-snap.tgz
 #-----------------------------------------
 # IG 外部パラメータ設定
 #-----------------------------------------

@@ -19,7 +19,7 @@
         <a href="index.html">本文</a>
       </li>
       <li>
-        <a href="samplePage.html">詳細説明</a>
+        <a href="jp-polst.html">詳細説明</a>
       </li>
       <li>
         <a href="artifacts.html">プロファイル</a>
@@ -42,7 +42,7 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="validationGuide.html">Validationガイド</a>
+        <a href="validation_guide.html">Validationガイド</a>
       </li>
     </ul>
   </li>
@@ -52,10 +52,10 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="https://jpfhir.jp/fhir/sample/jp-sample.r4-1.0.0.tgz">標準(diff)版</a>
+        <a href="https://jpfhir.jp/fhir/kawazoe/jp-sample.r4-1.0.0.tgz">標準(diff)版</a>
       </li>
       <li>
-        <a href="https://jpfhir.jp/fhir/sample/jp-sample.r4-1.0.0-snap.tgz">snapshot版</a>
+        <a href="https://jpfhir.jp/fhir/kawazoe/jp-sample.r4-1.0.0-snap.tgz">snapshot版</a>
       </li>
     </ul>
   </li>

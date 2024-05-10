@@ -4,7 +4,7 @@
   "url": "http://jpfhir.jp/fhir/polst-jp/ImplementationGuide/polst-jp",
   "version": "1.0.0",
   "name": "POLSTDNARFHIR",
-  "title": "日本版POLSTのためのFHIR文書実装ガイド",
+  "title": "日本版POLST（日本臨床倫理学会作成版）のためのFHIR文書実装ガイド",
   "status": "draft",
   "date": "2024-05-07",
   "publisher": "kawazoe",
@@ -203,7 +203,7 @@
         "reference": {
           "reference": "ValueSet/jp-polst-profession-vs"
         },
-        "name": "職種 ValueSet",
+        "name": "職種 VS",
         "description": "JP_POLST(JP) 職種 VS",
         "exampleBoolean": false
       },
@@ -235,12 +235,12 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "samplePage.html",
+          "nameUrl": "jp-polst.html",
           "title": "詳細説明",
           "generation": "markdown"
         },
         {
-          "nameUrl": "validationGuide.html",
+          "nameUrl": "validation_guide.html",
           "title": "Validationガイド",
           "generation": "markdown"
         }
