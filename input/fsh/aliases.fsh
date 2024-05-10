@@ -10,3 +10,4 @@ Alias: $JP_POLST_Section_C_DIV_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-p
 Alias: $JP_POLST_Section_C_ABD_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-abd
 Alias: $JP_POLST_Section_C_BDP_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-bdp
 Alias: $JP_POLST_Section_C_KD_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-kd
+Alias: $JP_POLST_Section_D_VS = http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-d

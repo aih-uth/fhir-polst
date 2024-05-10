@@ -74,20 +74,20 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].item[=].repeats = false
 
 * item[=].item[+].linkId = "group_Header"
-* item[=].item[=].text = "セクションA"
+* item[=].item[=].text = "セクションA; 心肺停止の場合"
 * item[=].item[=].type = http://hl7.org/fhir/item-type#group
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
 
 * item[=].item[=].item[+].linkId = "i2_1"
-* item[=].item[=].item[=].text = "心肺停止の場合；心肺蘇生術（CPR）について一つを選ぶ"
+* item[=].item[=].item[=].text = "心肺停止の場合; 心肺蘇生術（CPR）について一つを選ぶ"
 * item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_A_VS
 
 * item[=].item[+].linkId = "group_Header"
-* item[=].item[=].text = "セクションB"
+* item[=].item[=].text = "セクションB; 心肺停止の状態ではない場合"
 * item[=].item[=].type = http://hl7.org/fhir/item-type#group
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
@@ -100,7 +100,7 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_B_VS
 
 * item[=].item[+].linkId = "group_Header"
-* item[=].item[=].text = "セクションC"
+* item[=].item[=].text = "セクションC; その他の医療処置"
 * item[=].item[=].type = http://hl7.org/fhir/item-type#group
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
@@ -126,7 +126,7 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_C_DIV_VS
 
 * item[=].item[=].item[=].item[+].linkId = "i4_3"
-* item[=].item[=].item[=].item[=].text = "その他の指示"
+* item[=].item[=].item[=].item[=].text = "その他指示の内容"
 * item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#text
 * item[=].item[=].item[=].item[=].required = false
 * item[=].item[=].item[=].item[=].repeats = false
@@ -152,7 +152,7 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_C_BDP_VS
 
 * item[=].item[=].item[=].item[+].linkId = "i5_3"
-* item[=].item[=].item[=].item[=].text = "その他の指示"
+* item[=].item[=].item[=].item[=].text = "その他指示の内容"
 * item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#text
 * item[=].item[=].item[=].item[=].required = false
 * item[=].item[=].item[=].item[=].repeats = false
@@ -171,7 +171,44 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_C_KD_VS
 
 * item[=].item[=].item[=].item[+].linkId = "i6_2"
-* item[=].item[=].item[=].item[=].text = "その他の指示"
+* item[=].item[=].item[=].item[=].text = "その他指示の内容"
 * item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#text
 * item[=].item[=].item[=].item[=].required = false
 * item[=].item[=].item[=].item[=].repeats = false
+
+* item[=].item[+].linkId = "group_Header"
+* item[=].item[=].text = "セクション D; 患者による事前指示"
+* item[=].item[=].type = http://hl7.org/fhir/item-type#group
+* item[=].item[=].required = true
+* item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "i7_1"
+* item[=].item[=].item[=].text = "患者による事前指示"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+* item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_D_VS
+
+* item[=].item[=].item[+].linkId = "i7_2"
+* item[=].item[=].item[=].text = "その他指示の内容"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#text
+* item[=].item[=].item[=].required = false
+* item[=].item[=].item[=].repeats = false
+
+* item[=].item[+].linkId = "group_Header"
+* item[=].item[=].text = "セクション E; 変更・更新（確認）した日"
+* item[=].item[=].type = http://hl7.org/fhir/item-type#group
+* item[=].item[=].required = true
+* item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "i8_1"
+* item[=].item[=].item[=].text = "初回作成日"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#date
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "i8_2"
+* item[=].item[=].item[=].text = "最終更新日"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#date
+* item[=].item[=].item[=].required = false
+* item[=].item[=].item[=].repeats = true

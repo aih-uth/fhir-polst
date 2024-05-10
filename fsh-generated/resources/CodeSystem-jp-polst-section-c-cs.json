@@ -46,10 +46,14 @@
     {
       "code": "12345-09",
       "display": "人工透析を実施しない"
+    },
+    {
+      "code": "12345-10",
+      "display": "その他指示"
     }
   ],
   "title": "セクションC CS",
   "experimental": false,
   "caseSensitive": false,
-  "count": 10
+  "count": 11
 }

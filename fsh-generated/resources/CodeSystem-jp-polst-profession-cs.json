@@ -8,23 +8,23 @@
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-profession",
   "concept": [
     {
-      "code": "12345-01",
+      "code": "12345-00",
       "display": "医師"
     },
     {
-      "code": "12345-02",
+      "code": "12345-01",
       "display": "研修医"
     },
     {
-      "code": "12345-03",
+      "code": "12345-02",
       "display": "看護師"
     },
     {
-      "code": "12345-04",
+      "code": "12345-03",
       "display": "薬剤師"
     },
     {
-      "code": "12345-05",
+      "code": "12345-04",
       "display": "その他"
     }
   ],

@@ -8,15 +8,15 @@
   "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-participant",
   "concept": [
     {
-      "code": "12345-01",
+      "code": "12345-00",
       "display": "患者"
     },
     {
-      "code": "12345-02",
+      "code": "12345-01",
       "display": "配偶者"
     },
     {
-      "code": "12345-03",
+      "code": "12345-02",
       "display": "その他"
     }
   ],

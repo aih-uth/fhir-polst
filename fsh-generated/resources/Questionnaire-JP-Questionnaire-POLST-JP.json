@@ -96,14 +96,14 @@
         },
         {
           "linkId": "group_Header",
-          "text": "セクションA",
+          "text": "セクションA; 心肺停止の場合",
           "type": "group",
           "required": true,
           "repeats": false,
           "item": [
             {
               "linkId": "i2_1",
-              "text": "心肺停止の場合；心肺蘇生術（CPR）について一つを選ぶ",
+              "text": "心肺停止の場合; 心肺蘇生術（CPR）について一つを選ぶ",
               "type": "choice",
               "required": true,
               "repeats": false,
@@ -113,7 +113,7 @@
         },
         {
           "linkId": "group_Header",
-          "text": "セクションB",
+          "text": "セクションB; 心肺停止の状態ではない場合",
           "type": "group",
           "required": true,
           "repeats": false,
@@ -130,7 +130,7 @@
         },
         {
           "linkId": "group_Header",
-          "text": "セクションC",
+          "text": "セクションC; その他の医療処置",
           "type": "group",
           "required": true,
           "repeats": false,
@@ -160,7 +160,7 @@
                 },
                 {
                   "linkId": "i4_3",
-                  "text": "その他の指示",
+                  "text": "その他指示の内容",
                   "type": "text",
                   "required": false,
                   "repeats": false
@@ -192,7 +192,7 @@
                 },
                 {
                   "linkId": "i5_3",
-                  "text": "その他の指示",
+                  "text": "その他指示の内容",
                   "type": "text",
                   "required": false,
                   "repeats": false
@@ -216,12 +216,59 @@
                 },
                 {
                   "linkId": "i6_2",
-                  "text": "その他の指示",
+                  "text": "その他指示の内容",
                   "type": "text",
                   "required": false,
                   "repeats": false
                 }
               ]
+            }
+          ]
+        },
+        {
+          "linkId": "group_Header",
+          "text": "セクション D; 患者による事前指示",
+          "type": "group",
+          "required": true,
+          "repeats": false,
+          "item": [
+            {
+              "linkId": "i7_1",
+              "text": "患者による事前指示",
+              "type": "choice",
+              "required": true,
+              "repeats": false,
+              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-d"
+            },
+            {
+              "linkId": "i7_2",
+              "text": "その他指示の内容",
+              "type": "text",
+              "required": false,
+              "repeats": false
+            }
+          ]
+        },
+        {
+          "linkId": "group_Header",
+          "text": "セクション E; 変更・更新（確認）した日",
+          "type": "group",
+          "required": true,
+          "repeats": false,
+          "item": [
+            {
+              "linkId": "i8_1",
+              "text": "初回作成日",
+              "type": "date",
+              "required": true,
+              "repeats": false
+            },
+            {
+              "linkId": "i8_2",
+              "text": "最終更新日",
+              "type": "date",
+              "required": false,
+              "repeats": true
             }
           ]
         }

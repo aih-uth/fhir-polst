@@ -12,6 +12,8 @@
 [JP_POLST_Section_C_DIV_VS]: ValueSet-jp-polst-section-c-div-vs.html
 [JP_POLST_Section_C_TF_VS]: ValueSet-jp-polst-section-c-tf-vs.html
 [JP_POLST_Section_C_BDP_VS]: ValueSet-jp-polst-section-c-bdp-vs.html
+[JP_POLST_Section_D_CS]: CodeSystem-jp-polst-section-d-cs.html
+[JP_POLST_Section_D_VS]: ValueSet-jp-polst-section-d-vs.html
 [JP-Questionnaire-POLST-JP]: Questionnaire-JP-Questionnaire-POLST-JP.html
 [JP_POLST_Profession_VS]: ValueSet-jp-polst-profession-vs.html
 [JP_POLST_Profession_CS]: CodeSystem-jp-polst-profession-cs.html

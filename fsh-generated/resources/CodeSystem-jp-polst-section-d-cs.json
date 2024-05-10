@@ -1,0 +1,31 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "JP_POLST_Section_D_CS",
+  "id": "jp-polst-section-d-cs",
+  "description": "JP_POLST(JP) セクションD CS",
+  "url": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-d",
+  "concept": [
+    {
+      "code": "12345-00",
+      "display": "なし"
+    },
+    {
+      "code": "12345-01",
+      "display": "リビングウィル（望まない医療処置の内容）"
+    },
+    {
+      "code": "12345-02",
+      "display": "医療に関する代理判断者の指名"
+    },
+    {
+      "code": "12345-03",
+      "display": "その他指示"
+    }
+  ],
+  "title": "セクションD CS",
+  "experimental": false,
+  "caseSensitive": false,
+  "count": 4
+}

@@ -49,6 +49,7 @@ Description: "JP_POLST(JP) セクションC 経管栄養 VS"
 * ^experimental = false
 * $JP_POLST_Section_C_CS#12345-00
 * $JP_POLST_Section_C_CS#12345-01
+* $JP_POLST_Section_C_CS#12345-10
 
 // セクションC 点滴 VS
 ValueSet: JP_POLST_Section_C_DIV_VS
@@ -60,6 +61,7 @@ Description: "JP_POLST(JP) セクションC 点滴 VS"
 * ^experimental = false
 * $JP_POLST_Section_C_CS#12345-02
 * $JP_POLST_Section_C_CS#12345-03
+* $JP_POLST_Section_C_CS#12345-10
 
 // セクションC 抗菌薬 VS
 ValueSet: JP_POLST_Section_C_ABD_VS
@@ -71,6 +73,7 @@ Description: "JP_POLST(JP) セクションC 抗菌薬 VS"
 * ^experimental = false
 * $JP_POLST_Section_C_CS#12345-04
 * $JP_POLST_Section_C_CS#12345-05
+* $JP_POLST_Section_C_CS#12345-10
 
 // セクションC 血液製剤 VS
 ValueSet: JP_POLST_Section_C_BDP_VS
@@ -82,6 +85,7 @@ Description: "JP_POLST(JP) セクションC 血液製剤 VS"
 * ^experimental = false
 * $JP_POLST_Section_C_CS#12345-06
 * $JP_POLST_Section_C_CS#12345-07
+* $JP_POLST_Section_C_CS#12345-10
 
 // セクションC 人工透析 VS
 ValueSet: JP_POLST_Section_C_KD_VS
@@ -93,3 +97,14 @@ Description: "JP_POLST(JP) セクションC 人工透析 VS"
 * ^experimental = false
 * $JP_POLST_Section_C_CS#12345-08
 * $JP_POLST_Section_C_CS#12345-09
+* $JP_POLST_Section_C_CS#12345-10
+
+// セクションD 患者による事前指示 VS
+ValueSet: JP_POLST_Section_D_VS
+Id: jp-polst-section-d-vs
+Title: "セクションD 患者による事前指示"
+Description: "JP_POLST(JP) セクションD 患者による事前指示 VS"
+* ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-d"
+* ^status = #active
+* ^experimental = false
+* include codes from system http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-d

@@ -37,7 +37,15 @@
     "fshType": "CodeSystem",
     "fshFile": "code_systems/JP_CodeSystem_POLST.fsh",
     "startLine": 59,
-    "endLine": 77
+    "endLine": 78
+  },
+  {
+    "outputFile": "CodeSystem-jp-polst-section-d-cs.json",
+    "fshName": "JP_POLST_Section_D_CS",
+    "fshType": "CodeSystem",
+    "fshFile": "code_systems/JP_CodeSystem_POLST.fsh",
+    "startLine": 81,
+    "endLine": 93
   },
   {
     "outputFile": "Questionnaire-JP-Questionnaire-POLST-JP.json",
@@ -45,7 +53,7 @@
     "fshType": "Instance",
     "fshFile": "instances/JP_Questionnaire_POLST_JP .fsh",
     "startLine": 1,
-    "endLine": 177
+    "endLine": 214
   },
   {
     "outputFile": "StructureDefinition-JP-QResponse-POLST-Common.json",
@@ -116,32 +124,32 @@
     "fshName": "JP_POLST_Section_C_ABD_VS",
     "fshType": "ValueSet",
     "fshFile": "value_sets/JP_ValueSet_POLST.fsh",
-    "startLine": 65,
-    "endLine": 73
+    "startLine": 67,
+    "endLine": 76
   },
   {
     "outputFile": "ValueSet-jp-polst-section-c-bdp-vs.json",
     "fshName": "JP_POLST_Section_C_BDP_VS",
     "fshType": "ValueSet",
     "fshFile": "value_sets/JP_ValueSet_POLST.fsh",
-    "startLine": 76,
-    "endLine": 84
+    "startLine": 79,
+    "endLine": 88
   },
   {
     "outputFile": "ValueSet-jp-polst-section-c-div-vs.json",
     "fshName": "JP_POLST_Section_C_DIV_VS",
     "fshType": "ValueSet",
     "fshFile": "value_sets/JP_ValueSet_POLST.fsh",
-    "startLine": 54,
-    "endLine": 62
+    "startLine": 55,
+    "endLine": 64
   },
   {
     "outputFile": "ValueSet-jp-polst-section-c-kd-vs.json",
     "fshName": "JP_POLST_Section_C_KD_VS",
     "fshType": "ValueSet",
     "fshFile": "value_sets/JP_ValueSet_POLST.fsh",
-    "startLine": 87,
-    "endLine": 95
+    "startLine": 91,
+    "endLine": 100
   },
   {
     "outputFile": "ValueSet-jp-polst-section-c-tf-vs.json",
@@ -149,6 +157,14 @@
     "fshType": "ValueSet",
     "fshFile": "value_sets/JP_ValueSet_POLST.fsh",
     "startLine": 43,
-    "endLine": 51
+    "endLine": 52
+  },
+  {
+    "outputFile": "ValueSet-jp-polst-section-d-vs.json",
+    "fshName": "JP_POLST_Section_D_VS",
+    "fshType": "ValueSet",
+    "fshFile": "value_sets/JP_ValueSet_POLST.fsh",
+    "startLine": 103,
+    "endLine": 110
   }
 ]

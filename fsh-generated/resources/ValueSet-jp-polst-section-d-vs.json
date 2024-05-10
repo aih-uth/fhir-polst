@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "JP_POLST_Section_D_VS",
+  "id": "jp-polst-section-d-vs",
+  "title": "セクションD 患者による事前指示",
+  "description": "JP_POLST(JP) セクションD 患者による事前指示 VS",
+  "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-d",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-d"
+      }
+    ]
+  }
+}

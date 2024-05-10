@@ -169,6 +169,22 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/jp-polst-section-d-cs"
+        },
+        "name": "セクションD CS",
+        "description": "JP_POLST(JP) セクションD CS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/jp-polst-section-d-vs"
+        },
+        "name": "セクションD 患者による事前指示",
+        "description": "JP_POLST(JP) セクションD 患者による事前指示 VS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/JP-Questionnaire-POLST-JP"
         },
         "name": "日本臨床倫理学会版POLST（DNAR指示を含む）",
