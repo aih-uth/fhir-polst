@@ -11,7 +11,7 @@ Description: "JP_POLST(JP) 話し合いの参加者 VS"
 // 職種VS
 ValueSet: JP_POLST_Profession_VS
 Id: jp-polst-profession-vs
-Title: "職種 ValueSet"
+Title: "職種 VS"
 Description: "JP_POLST(JP) 職種 VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-profession"
 * ^status = #active
