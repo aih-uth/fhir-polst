@@ -1,9 +1,9 @@
 // 話し合いの参加者 CS
 CodeSystem: JP_POLST_Participant_CS
 Id: jp-polst-participant-cs
-Description: "JP_POLST(JP) 話し合いの参加者CS"
+Description: "JP_POLST(JP) 話し合いの参加者 CS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-participant"
-* ^title = "話し合いの参加者CS"
+* ^title = "話し合いの参加者 CS"
 * ^status = #active
 * ^experimental = false
 * ^content = #complete
@@ -15,9 +15,9 @@ Description: "JP_POLST(JP) 話し合いの参加者CS"
 // 職種 CS
 CodeSystem: JP_POLST_Profession_CS
 Id: jp-polst-profession-cs
-Description: "JP_POLST(JP) 職種CS"
+Description: "JP_POLST(JP) 職種 CS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-profession"
-* ^title = "職種CS"
+* ^title = "職種 CS"
 * ^status = #active
 * ^experimental = false
 * ^content = #complete
@@ -26,14 +26,16 @@ Description: "JP_POLST(JP) 職種CS"
 * #12345-01 "研修医"
 * #12345-02 "看護師"
 * #12345-03 "薬剤師"
-* #12345-04 "その他"
+* #12345-05 "医学生"
+* #12345-05 "看護学生"
+* #12345-06 "その他"
 
 // セクションA CS
 CodeSystem: JP_POLST_Section_A_CS
 Id: jp-polst-section-a-cs
-Description: "JP_POLST(JP) セクションA CS"
+Description: "JP_POLST(JP) セクションA (心肺停止の場合) CS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-a"
-* ^title = "セクションA CS"
+* ^title = "セクションA (心肺停止の場合) CS"
 * ^status = #active
 * ^experimental = false
 * ^content = #complete
@@ -44,9 +46,9 @@ Description: "JP_POLST(JP) セクションA CS"
 // セクションB CS
 CodeSystem: JP_POLST_Section_B_CS
 Id: jp-polst-section-b-cs
-Description: "JP_POLST(JP) セクションB CS"
+Description: "JP_POLST(JP) セクションB (心肺停止の状態ではない場合) CS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-b"
-* ^title = "セクションB CS"
+* ^title = "セクションB (心肺停止の状態ではない場合) CS"
 * ^status = #active
 * ^experimental = false
 * ^content = #complete
@@ -59,9 +61,9 @@ Description: "JP_POLST(JP) セクションB CS"
 // セクションC 経管栄養
 CodeSystem: JP_POLST_Section_C_CS
 Id: jp-polst-section-c-cs
-Description: "JP_POLST(JP) セクションC CS"
+Description: "JP_POLST(JP) セクションC (その他の医療処置) CS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-c"
-* ^title = "セクションC CS"
+* ^title = "セクションC (その他の医療処置) CS"
 * ^status = #active
 * ^experimental = false
 * ^content = #complete
@@ -81,9 +83,9 @@ Description: "JP_POLST(JP) セクションC CS"
 // セクションD 患者による事前指示
 CodeSystem: JP_POLST_Section_D_CS
 Id: jp-polst-section-d-cs
-Description: "JP_POLST(JP) セクションD CS"
+Description: "JP_POLST(JP) セクションD (患者による事前指示) CS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-d"
-* ^title = "セクションD CS"
+* ^title = "セクションD (患者による事前指示) CS"
 * ^status = #active
 * ^experimental = false
 * ^content = #complete

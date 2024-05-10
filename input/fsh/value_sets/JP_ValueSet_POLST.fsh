@@ -1,8 +1,8 @@
 // 話し合いの参加者VS
 ValueSet: JP_POLST_Participant_VS
 Id: jp-polst-participant-vs
-Title: "話し合いの参加者"
-Description: "JP_POLST(JP) 話し合いの参加者VS"
+Title: "話し合いの参加者 VS"
+Description: "JP_POLST(JP) 話し合いの参加者 VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-participant"
 * ^status = #active
 * ^experimental = false
@@ -11,8 +11,8 @@ Description: "JP_POLST(JP) 話し合いの参加者VS"
 // 職種VS
 ValueSet: JP_POLST_Profession_VS
 Id: jp-polst-profession-vs
-Title: "職種"
-Description: "JP_POLST(JP) 職種VS"
+Title: "職種 ValueSet"
+Description: "JP_POLST(JP) 職種 VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-profession"
 * ^status = #active
 * ^experimental = false
@@ -21,8 +21,8 @@ Description: "JP_POLST(JP) 職種VS"
 // セクションA VS
 ValueSet: JP_POLST_Section_A_VS
 Id: jp-polst-section-a-vs
-Title: "セクションA"
-Description: "JP_POLST(JP) セクションA VS"
+Title: "セクションA (心肺停止の場合) VS"
+Description: "JP_POLST(JP) セクションA (心肺停止の場合) VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-a"
 * ^status = #active
 * ^experimental = false
@@ -31,8 +31,8 @@ Description: "JP_POLST(JP) セクションA VS"
 // セクションB VS
 ValueSet: JP_POLST_Section_B_VS
 Id: jp-polst-section-b-vs
-Title: "セクションB"
-Description: "JP_POLST(JP) セクションB VS"
+Title: "セクションB (心肺停止の状態ではない場合) VS"
+Description: "JP_POLST(JP) セクションB (心肺停止の状態ではない場合) VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-b"
 * ^status = #active
 * ^experimental = false
@@ -42,7 +42,7 @@ Description: "JP_POLST(JP) セクションB VS"
 // セクションC 経管栄養 VS
 ValueSet: JP_POLST_Section_C_TF_VS
 Id: jp-polst-section-c-tf-vs
-Title: "セクションC 経管栄養"
+Title: "セクションC (その他の医療処置) 経管栄養 VS"
 Description: "JP_POLST(JP) セクションC 経管栄養 VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-tf"
 * ^status = #active
@@ -54,7 +54,7 @@ Description: "JP_POLST(JP) セクションC 経管栄養 VS"
 // セクションC 点滴 VS
 ValueSet: JP_POLST_Section_C_DIV_VS
 Id: jp-polst-section-c-div-vs
-Title: "セクションC 点滴"
+Title: "セクションC (その他の医療処置) 点滴 VS"
 Description: "JP_POLST(JP) セクションC 点滴 VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-div"
 * ^status = #active
@@ -66,7 +66,7 @@ Description: "JP_POLST(JP) セクションC 点滴 VS"
 // セクションC 抗菌薬 VS
 ValueSet: JP_POLST_Section_C_ABD_VS
 Id: jp-polst-section-c-abd-vs
-Title: "セクションC 抗菌薬"
+Title: "セクションC (その他の医療処置) 抗菌薬 VS"
 Description: "JP_POLST(JP) セクションC 抗菌薬 VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-abd"
 * ^status = #active
@@ -78,7 +78,7 @@ Description: "JP_POLST(JP) セクションC 抗菌薬 VS"
 // セクションC 血液製剤 VS
 ValueSet: JP_POLST_Section_C_BDP_VS
 Id: jp-polst-section-c-bdp-vs
-Title: "セクションC 血液製剤"
+Title: "セクションC (その他の医療処置) 血液製剤 VS"
 Description: "JP_POLST(JP) セクションC 血液製剤 VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-bdp"
 * ^status = #active
@@ -90,7 +90,7 @@ Description: "JP_POLST(JP) セクションC 血液製剤 VS"
 // セクションC 人工透析 VS
 ValueSet: JP_POLST_Section_C_KD_VS
 Id: jp-polst-section-c-kd-vs
-Title: "セクションC 人工透析"
+Title: "セクションC (その他の医療処置) 人工透析 VS"
 Description: "JP_POLST(JP) セクションC 人工透析 VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-kd"
 * ^status = #active
@@ -102,7 +102,7 @@ Description: "JP_POLST(JP) セクションC 人工透析 VS"
 // セクションD 患者による事前指示 VS
 ValueSet: JP_POLST_Section_D_VS
 Id: jp-polst-section-d-vs
-Title: "セクションD 患者による事前指示"
+Title: "セクションD (患者による事前指示) 患者による事前指示 VS"
 Description: "JP_POLST(JP) セクションD 患者による事前指示 VS"
 * ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-d"
 * ^status = #active
