@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "JP_POLST_Section_C_BDP_VS",
+  "id": "jp-polst-section-c-bdp-vs",
+  "title": "セクションC 血液製剤",
+  "description": "JP_POLST(JP) セクションC 血液製剤 VS",
+  "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-bdp",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-c",
+        "concept": [
+          {
+            "code": "12345-06"
+          },
+          {
+            "code": "12345-07"
+          }
+        ]
+      }
+    ]
+  }
+}

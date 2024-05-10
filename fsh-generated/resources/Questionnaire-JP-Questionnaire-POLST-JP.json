@@ -166,6 +166,62 @@
                   "repeats": false
                 }
               ]
+            },
+            {
+              "linkId": "group_Header",
+              "text": "抗生物質および血液製剤",
+              "type": "group",
+              "required": true,
+              "repeats": false,
+              "item": [
+                {
+                  "linkId": "i5_1",
+                  "text": "抗菌剤の投与",
+                  "type": "choice",
+                  "required": true,
+                  "repeats": false,
+                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-abd"
+                },
+                {
+                  "linkId": "i5_2",
+                  "text": "血液製剤の投与",
+                  "type": "choice",
+                  "required": true,
+                  "repeats": false,
+                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-bdp"
+                },
+                {
+                  "linkId": "i5_3",
+                  "text": "その他の指示",
+                  "type": "text",
+                  "required": false,
+                  "repeats": false
+                }
+              ]
+            },
+            {
+              "linkId": "group_Header",
+              "text": "人工透析",
+              "type": "group",
+              "required": true,
+              "repeats": false,
+              "item": [
+                {
+                  "linkId": "i6_1",
+                  "text": "人工透析の実施",
+                  "type": "choice",
+                  "required": true,
+                  "repeats": false,
+                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-kd"
+                },
+                {
+                  "linkId": "i6_2",
+                  "text": "その他の指示",
+                  "type": "text",
+                  "required": false,
+                  "repeats": false
+                }
+              ]
             }
           ]
         }

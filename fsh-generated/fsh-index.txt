@@ -4,7 +4,7 @@ CodeSystem-jp-polst-profession-cs.json                  JP_POLST_Profession_CS  
 CodeSystem-jp-polst-section-a-cs.json                   JP_POLST_Section_A_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        32 - 42
 CodeSystem-jp-polst-section-b-cs.json                   JP_POLST_Section_B_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        45 - 56
 CodeSystem-jp-polst-section-c-cs.json                   JP_POLST_Section_C_CS          CodeSystem  code_systems/JP_CodeSystem_POLST.fsh        59 - 77
-Questionnaire-JP-Questionnaire-POLST-JP.json            JP-Questionnaire-POLST-JP      Instance    instances/JP_Questionnaire_POLST_JP .fsh    1 - 132
+Questionnaire-JP-Questionnaire-POLST-JP.json            JP-Questionnaire-POLST-JP      Instance    instances/JP_Questionnaire_POLST_JP .fsh    1 - 177
 StructureDefinition-JP-QResponse-POLST-Common.json      JP_QResponse_POLST_Common      Profile     profiles/JP_QResponse_POLST_Common.fsh      1 - 71
 StructureDefinition-JP-Questionnaire-POLST-Common.json  JP_Questionnaire_POLST_Common  Profile     profiles/JP_Questionnaire_POLST_Common.fsh  1 - 60
 StructureDefinition-JP-Questionnaire.json               JP_Questionnaire               Profile     profiles/JP_Questionnaire.fsh               1 - 16
@@ -13,5 +13,8 @@ ValueSet-jp-polst-participant-vs.json                   JP_POLST_Participant_VS 
 ValueSet-jp-polst-profession-vs.json                    JP_POLST_Profession_VS         ValueSet    value_sets/JP_ValueSet_POLST.fsh            12 - 19
 ValueSet-jp-polst-section-a-vs.json                     JP_POLST_Section_A_VS          ValueSet    value_sets/JP_ValueSet_POLST.fsh            22 - 29
 ValueSet-jp-polst-section-b-vs.json                     JP_POLST_Section_B_VS          ValueSet    value_sets/JP_ValueSet_POLST.fsh            32 - 39
+ValueSet-jp-polst-section-c-abd-vs.json                 JP_POLST_Section_C_ABD_VS      ValueSet    value_sets/JP_ValueSet_POLST.fsh            65 - 73
+ValueSet-jp-polst-section-c-bdp-vs.json                 JP_POLST_Section_C_BDP_VS      ValueSet    value_sets/JP_ValueSet_POLST.fsh            76 - 84
 ValueSet-jp-polst-section-c-div-vs.json                 JP_POLST_Section_C_DIV_VS      ValueSet    value_sets/JP_ValueSet_POLST.fsh            54 - 62
+ValueSet-jp-polst-section-c-kd-vs.json                  JP_POLST_Section_C_KD_VS       ValueSet    value_sets/JP_ValueSet_POLST.fsh            87 - 95
 ValueSet-jp-polst-section-c-tf-vs.json                  JP_POLST_Section_C_TF_VS       ValueSet    value_sets/JP_ValueSet_POLST.fsh            43 - 51

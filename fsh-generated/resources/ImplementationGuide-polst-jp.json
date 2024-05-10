@@ -129,6 +129,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/jp-polst-section-c-kd-vs"
+        },
+        "name": "セクションC 人工透析",
+        "description": "JP_POLST(JP) セクションC 人工透析 VS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/jp-polst-section-c-abd-vs"
+        },
+        "name": "セクションC 抗菌薬",
+        "description": "JP_POLST(JP) セクションC 抗菌薬 VS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/jp-polst-section-c-div-vs"
         },
         "name": "セクションC 点滴",
@@ -141,6 +157,14 @@
         },
         "name": "セクションC 経管栄養",
         "description": "JP_POLST(JP) セクションC 経管栄養 VS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/jp-polst-section-c-bdp-vs"
+        },
+        "name": "セクションC 血液製剤",
+        "description": "JP_POLST(JP) セクションC 血液製剤 VS",
         "exampleBoolean": false
       },
       {

@@ -60,3 +60,36 @@ Description: "JP_POLST(JP) セクションC 点滴 VS"
 * ^experimental = false
 * $JP_POLST_Section_C_CS#12345-02
 * $JP_POLST_Section_C_CS#12345-03
+
+// セクションC 抗菌薬 VS
+ValueSet: JP_POLST_Section_C_ABD_VS
+Id: jp-polst-section-c-abd-vs
+Title: "セクションC 抗菌薬"
+Description: "JP_POLST(JP) セクションC 抗菌薬 VS"
+* ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-abd"
+* ^status = #active
+* ^experimental = false
+* $JP_POLST_Section_C_CS#12345-04
+* $JP_POLST_Section_C_CS#12345-05
+
+// セクションC 血液製剤 VS
+ValueSet: JP_POLST_Section_C_BDP_VS
+Id: jp-polst-section-c-bdp-vs
+Title: "セクションC 血液製剤"
+Description: "JP_POLST(JP) セクションC 血液製剤 VS"
+* ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-bdp"
+* ^status = #active
+* ^experimental = false
+* $JP_POLST_Section_C_CS#12345-06
+* $JP_POLST_Section_C_CS#12345-07
+
+// セクションC 人工透析 VS
+ValueSet: JP_POLST_Section_C_KD_VS
+Id: jp-polst-section-c-kd-vs
+Title: "セクションC 人工透析"
+Description: "JP_POLST(JP) セクションC 人工透析 VS"
+* ^url = "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-kd"
+* ^status = #active
+* ^experimental = false
+* $JP_POLST_Section_C_CS#12345-08
+* $JP_POLST_Section_C_CS#12345-09

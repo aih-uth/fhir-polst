@@ -130,3 +130,48 @@ Description: "日本臨床倫理学会版POLST（DNAR指示を含む）"
 * item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#text
 * item[=].item[=].item[=].item[=].required = false
 * item[=].item[=].item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "group_Header"
+* item[=].item[=].item[=].text = "抗生物質および血液製剤"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#group
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+
+* item[=].item[=].item[=].item[+].linkId = "i5_1"
+* item[=].item[=].item[=].item[=].text = "抗菌剤の投与"
+* item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
+* item[=].item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].item[=].repeats = false
+* item[=].item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_C_ABD_VS
+
+* item[=].item[=].item[=].item[+].linkId = "i5_2"
+* item[=].item[=].item[=].item[=].text = "血液製剤の投与"
+* item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
+* item[=].item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].item[=].repeats = false
+* item[=].item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_C_BDP_VS
+
+* item[=].item[=].item[=].item[+].linkId = "i5_3"
+* item[=].item[=].item[=].item[=].text = "その他の指示"
+* item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#text
+* item[=].item[=].item[=].item[=].required = false
+* item[=].item[=].item[=].item[=].repeats = false
+
+* item[=].item[=].item[+].linkId = "group_Header"
+* item[=].item[=].item[=].text = "人工透析"
+* item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#group
+* item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].repeats = false
+
+* item[=].item[=].item[=].item[+].linkId = "i6_1"
+* item[=].item[=].item[=].item[=].text = "人工透析の実施"
+* item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#choice
+* item[=].item[=].item[=].item[=].required = true
+* item[=].item[=].item[=].item[=].repeats = false
+* item[=].item[=].item[=].item[=].answerValueSet = $JP_POLST_Section_C_KD_VS
+
+* item[=].item[=].item[=].item[+].linkId = "i6_2"
+* item[=].item[=].item[=].item[=].text = "その他の指示"
+* item[=].item[=].item[=].item[=].type = http://hl7.org/fhir/item-type#text
+* item[=].item[=].item[=].item[=].required = false
+* item[=].item[=].item[=].item[=].repeats = false

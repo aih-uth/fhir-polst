@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "JP_POLST_Section_C_ABD_VS",
+  "id": "jp-polst-section-c-abd-vs",
+  "title": "セクションC 抗菌薬",
+  "description": "JP_POLST(JP) セクションC 抗菌薬 VS",
+  "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-abd",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-c",
+        "concept": [
+          {
+            "code": "12345-04"
+          },
+          {
+            "code": "12345-05"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "JP_POLST_Section_C_KD_VS",
+  "id": "jp-polst-section-c-kd-vs",
+  "title": "セクションC 人工透析",
+  "description": "JP_POLST(JP) セクションC 人工透析 VS",
+  "url": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-kd",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://jpfhir.jp/fhir/IGsample/CodeSystem/jp-polst-section-c",
+        "concept": [
+          {
+            "code": "12345-08"
+          },
+          {
+            "code": "12345-09"
+          }
+        ]
+      }
+    ]
+  }
+}
