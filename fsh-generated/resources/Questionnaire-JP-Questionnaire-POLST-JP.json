@@ -93,164 +93,84 @@
               "repeats": false
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "linkId": "group_Header",
+      "text": "セクションA; 心肺停止の場合",
+      "type": "group",
+      "required": true,
+      "repeats": false,
+      "item": [
         {
-          "linkId": "group_Header",
-          "text": "セクションA; 心肺停止の場合",
-          "type": "group",
+          "linkId": "i2_1",
+          "text": "心肺停止の場合; 心肺蘇生術（CPR）について一つを選ぶ",
+          "type": "choice",
           "required": true,
           "repeats": false,
-          "item": [
-            {
-              "linkId": "i2_1",
-              "text": "心肺停止の場合; 心肺蘇生術（CPR）について一つを選ぶ",
-              "type": "choice",
-              "required": true,
-              "repeats": false,
-              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-a"
-            }
-          ]
-        },
+          "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-a"
+        }
+      ]
+    },
+    {
+      "linkId": "group_Header",
+      "text": "セクションB; 心肺停止の状態ではない場合",
+      "type": "group",
+      "required": true,
+      "repeats": false,
+      "item": [
         {
-          "linkId": "group_Header",
-          "text": "セクションB; 心肺停止の状態ではない場合",
-          "type": "group",
+          "linkId": "i3_1",
+          "text": "生命を脅かす疾患に直面しているが，CPA の状態ではない（脈拍が触知したり，呼吸をしている）場合；一つを選ぶ",
+          "type": "choice",
           "required": true,
           "repeats": false,
+          "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-b",
           "item": [
             {
               "linkId": "i3_1",
-              "text": "生命を脅かす疾患に直面しているが，CPA の状態ではない（脈拍が触知したり，呼吸をしている）場合；一つを選ぶ",
-              "type": "choice",
-              "required": true,
-              "repeats": false,
-              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-b",
-              "item": [
-                {
-                  "linkId": "i3_1",
-                  "text": "その他指示の内容",
-                  "type": "text",
-                  "required": false,
-                  "repeats": false
-                }
-              ]
+              "text": "その他指示の内容",
+              "type": "text",
+              "required": false,
+              "repeats": false
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "linkId": "group_Header",
+      "text": "セクションC; その他の医療処置",
+      "type": "group",
+      "required": true,
+      "repeats": false,
+      "item": [
         {
           "linkId": "group_Header",
-          "text": "セクションC; その他の医療処置",
+          "text": "人工的水分栄養補給",
           "type": "group",
           "required": true,
           "repeats": false,
           "item": [
             {
-              "linkId": "group_Header",
-              "text": "人工的水分栄養補給",
-              "type": "group",
-              "required": true,
-              "repeats": false,
-              "item": [
-                {
-                  "linkId": "i4_1",
-                  "text": "経管栄養の実施",
-                  "type": "choice",
-                  "required": true,
-                  "repeats": false,
-                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-tf"
-                },
-                {
-                  "linkId": "i4_2",
-                  "text": "点滴の実施",
-                  "type": "choice",
-                  "required": true,
-                  "repeats": false,
-                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-div"
-                },
-                {
-                  "linkId": "i4_3",
-                  "text": "その他指示の内容",
-                  "type": "text",
-                  "required": false,
-                  "repeats": false
-                }
-              ]
-            },
-            {
-              "linkId": "group_Header",
-              "text": "抗生物質および血液製剤",
-              "type": "group",
-              "required": true,
-              "repeats": false,
-              "item": [
-                {
-                  "linkId": "i5_1",
-                  "text": "抗菌剤の投与",
-                  "type": "choice",
-                  "required": true,
-                  "repeats": false,
-                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-abd"
-                },
-                {
-                  "linkId": "i5_2",
-                  "text": "血液製剤の投与",
-                  "type": "choice",
-                  "required": true,
-                  "repeats": false,
-                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-bdp"
-                },
-                {
-                  "linkId": "i5_3",
-                  "text": "その他指示の内容",
-                  "type": "text",
-                  "required": false,
-                  "repeats": false
-                }
-              ]
-            },
-            {
-              "linkId": "group_Header",
-              "text": "人工透析",
-              "type": "group",
-              "required": true,
-              "repeats": false,
-              "item": [
-                {
-                  "linkId": "i6_1",
-                  "text": "人工透析の実施",
-                  "type": "choice",
-                  "required": true,
-                  "repeats": false,
-                  "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-kd"
-                },
-                {
-                  "linkId": "i6_2",
-                  "text": "その他指示の内容",
-                  "type": "text",
-                  "required": false,
-                  "repeats": false
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "linkId": "group_Header",
-          "text": "セクション D; 患者による事前指示",
-          "type": "group",
-          "required": true,
-          "repeats": false,
-          "item": [
-            {
-              "linkId": "i7_1",
-              "text": "患者による事前指示",
+              "linkId": "i4_1",
+              "text": "経管栄養の実施",
               "type": "choice",
               "required": true,
               "repeats": false,
-              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-d"
+              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-tf"
             },
             {
-              "linkId": "i7_2",
+              "linkId": "i4_2",
+              "text": "点滴の実施",
+              "type": "choice",
+              "required": true,
+              "repeats": false,
+              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-div"
+            },
+            {
+              "linkId": "i4_3",
               "text": "その他指示の内容",
               "type": "text",
               "required": false,
@@ -260,26 +180,106 @@
         },
         {
           "linkId": "group_Header",
-          "text": "セクション E; 変更・更新（確認）した日",
+          "text": "抗生物質および血液製剤",
           "type": "group",
           "required": true,
           "repeats": false,
           "item": [
             {
-              "linkId": "i8_1",
-              "text": "初回作成日",
-              "type": "date",
+              "linkId": "i5_1",
+              "text": "抗菌剤の投与",
+              "type": "choice",
               "required": true,
-              "repeats": false
+              "repeats": false,
+              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-abd"
             },
             {
-              "linkId": "i8_2",
-              "text": "最終更新日",
-              "type": "date",
+              "linkId": "i5_2",
+              "text": "血液製剤の投与",
+              "type": "choice",
+              "required": true,
+              "repeats": false,
+              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-bdp"
+            },
+            {
+              "linkId": "i5_3",
+              "text": "その他指示の内容",
+              "type": "text",
               "required": false,
-              "repeats": true
+              "repeats": false
             }
           ]
+        },
+        {
+          "linkId": "group_Header",
+          "text": "人工透析",
+          "type": "group",
+          "required": true,
+          "repeats": false,
+          "item": [
+            {
+              "linkId": "i6_1",
+              "text": "人工透析の実施",
+              "type": "choice",
+              "required": true,
+              "repeats": false,
+              "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-c-kd"
+            },
+            {
+              "linkId": "i6_2",
+              "text": "その他指示の内容",
+              "type": "text",
+              "required": false,
+              "repeats": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "group_Header",
+      "text": "セクション D; 患者による事前指示",
+      "type": "group",
+      "required": true,
+      "repeats": false,
+      "item": [
+        {
+          "linkId": "i7_1",
+          "text": "患者による事前指示",
+          "type": "choice",
+          "required": true,
+          "repeats": false,
+          "answerValueSet": "http://jpfhir.jp/fhir/IGsample/ValueSet/jp-polst-section-d"
+        },
+        {
+          "linkId": "i7_2",
+          "text": "その他指示の内容",
+          "type": "text",
+          "required": false,
+          "repeats": false
+        }
+      ]
+    },
+    {
+      "linkId": "group_Header",
+      "text": "セクション E; 変更・更新（確認）した日",
+      "type": "group",
+      "required": true,
+      "repeats": false,
+      "item": [
+        {
+          "linkId": "i8_1",
+          "text": "初回作成日",
+          "type": "date",
+          "required": true,
+          "repeats": false
+        },
+        {
+          "linkId": "i8_2",
+          "text": "最終更新日",
+          "type": "date",
+          "required": false,
+          "repeats": true
         }
       ]
     }
